@@ -1,12 +1,12 @@
 :root {
-  --bg: #efefef;
+  --bg: #f4f4f4;
   --surface: #ffffff;
-  --ink: #171a22;
+  --ink: #161923;
   --ink-muted: #4f5665;
   --line: #d5d8de;
   --accent: #1a1e28;
-  --accent-soft: #f4f5f7;
-  --radius: 18px;
+  --accent-soft: #f0f2f5;
+  --radius: 16px;
 }
 
 * {
@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   color: var(--ink);
-  background: radial-gradient(circle at top right, #f8f8f8, var(--bg) 45%);
+  background: var(--bg);
   scroll-behavior: smooth;
 }
 
@@ -28,22 +28,9 @@ body {
 }
 
 .site-header {
-  position: relative;
-  background: linear-gradient(180deg, #f8f8f8 0%, #f2f3f5 100%);
-  border-bottom: 1px solid #d9dde4;
-  overflow: clip;
-}
-
-.site-header::before {
-  content: "";
-  position: absolute;
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  border: 1px solid #cfd3db;
-  top: -240px;
-  right: -120px;
-  opacity: 0.6;
+  background: linear-gradient(180deg, #f6f6f7 0%, #f0f1f3 100%);
+  padding-bottom: 4.5rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .nav {
@@ -51,39 +38,39 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
-  position: relative;
-  z-index: 2;
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
   color: inherit;
   text-decoration: none;
 }
 
+.brand-mark {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
 .brand-text {
   display: grid;
-  line-height: 0.95;
+  line-height: 1;
 }
 
 .brand-text strong {
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(2rem, 3.4vw, 2.5rem);
+  font-size: 1.9rem;
   font-weight: 600;
   letter-spacing: 0.04em;
 }
 
-.initial-s {
-  font-size: 1.3em;
-  font-weight: 700;
-  margin-right: 0.01em;
-  display: inline-block;
-  transform: translateY(3px);
-}
-
 .brand-text small {
-  font-size: 0.72rem;
-  letter-spacing: 0.28em;
-  margin-top: 0.16rem;
+  font-size: 0.73rem;
+  letter-spacing: 0.24em;
+  margin-top: 0.2rem;
 }
 
 .nav-links {
@@ -114,8 +101,8 @@ body {
   transition: transform 0.2s ease;
 }
 
-.nav-links a:hover::after {
-  transform: scaleX(1);
+.nav-links a:hover {
+  color: #000;
 }
 
 .menu-toggle {
@@ -128,25 +115,12 @@ body {
 }
 
 .hero {
-  position: relative;
-  padding: 2.8rem 0 4.6rem;
-  display: grid;
-  grid-template-columns: 1.3fr 0.8fr;
-  gap: 1.2rem;
-  align-items: center;
-}
-
-.hero-panel {
-  background: linear-gradient(135deg, #fefefe, #f4f5f7);
-  border: 1px solid #dce0e7;
-  border-radius: 22px;
-  padding: clamp(1.4rem, 3vw, 2.3rem);
-  box-shadow: 0 24px 50px -42px #111827;
+  padding-top: 3.2rem;
 }
 
 .eyebrow {
   margin: 0;
-  color: #5b6271;
+  color: #5a6271;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -156,54 +130,17 @@ body {
 .hero h1 {
   font-family: "Cormorant Garamond", Georgia, serif;
   font-size: clamp(2.2rem, 5vw, 4rem);
-  line-height: 1.03;
+  line-height: 1.05;
   margin: 0.9rem 0 1rem;
   max-width: 16ch;
   font-weight: 600;
 }
 
 .hero-copy {
-  max-width: 64ch;
+  max-width: 66ch;
   color: var(--ink-muted);
   font-size: 1.02rem;
   line-height: 1.7;
-}
-
-.hero-badge {
-  justify-self: end;
-  border: 1px solid #ccd2dd;
-  background: #fff;
-  border-radius: 24px;
-  width: min(280px, 100%);
-  aspect-ratio: 1 / 1;
-  display: grid;
-  place-items: center;
-  text-align: center;
-  padding: 1rem;
-  position: relative;
-  box-shadow: 0 20px 36px -30px #111827;
-}
-
-.hero-badge::before {
-  content: "";
-  position: absolute;
-  inset: 12px;
-  border: 1px solid #e2e5eb;
-  border-radius: 18px;
-}
-
-.hero-badge-s {
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(5rem, 9vw, 7rem);
-  line-height: 0.8;
-  font-weight: 600;
-}
-
-.hero-badge p {
-  margin: 0;
-  letter-spacing: 0.2em;
-  font-size: 0.62rem;
-  font-weight: 500;
 }
 
 .hero-cta {
@@ -228,8 +165,7 @@ body {
 
 .btn-primary {
   background: var(--accent);
-  color: #fff;
-  border: 1px solid transparent;
+  color: white;
 }
 
 .btn-primary:hover {
@@ -239,10 +175,6 @@ body {
 .btn-ghost {
   border: 1px solid #282d3c;
   color: var(--ink);
-}
-
-.btn-ghost:hover {
-  border-color: #090b11;
 }
 
 .section {
@@ -272,13 +204,9 @@ body {
 .card {
   background: linear-gradient(150deg, #fff, #f6f7f9);
   border-radius: var(--radius);
-  padding: 1.45rem;
+  padding: 1.4rem;
   border: 1px solid #dfe2e8;
   box-shadow: 0 12px 24px -20px #0a1b4422;
-}
-
-.card:hover {
-  border-color: #bec5d2;
 }
 
 .card:last-child {
@@ -288,7 +216,7 @@ body {
 .card h3 {
   margin: 0 0 0.7rem;
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.58rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 
@@ -347,9 +275,9 @@ body {
 }
 
 .site-footer {
-  background: linear-gradient(180deg, #141822, #10131b);
+  background: #10131b;
   color: #edf0f7;
-  padding: 3.8rem 0;
+  padding: 3.6rem 0;
 }
 
 .footer-content {
@@ -379,16 +307,6 @@ body {
 .site-footer .btn-ghost {
   border-color: #c2c9d8;
   color: #f4f7ff;
-}
-
-@media (max-width: 980px) {
-  .hero {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-badge {
-    justify-self: start;
-  }
 }
 
 @media (max-width: 860px) {
@@ -421,6 +339,14 @@ body {
 
   .nav-links.open {
     display: flex;
+  }
+
+  .brand-mark {
+    font-size: 2.5rem;
+  }
+
+  .brand-text strong {
+    font-size: 1.5rem;
   }
 
   .footer-content {
