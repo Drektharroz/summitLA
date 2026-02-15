@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -19,7 +19,13 @@
   <body>
     <header class="site-header" id="inicio">
       <nav class="container nav">
-        <a class="brand" href="#inicio">Summit Legal Advisors</a>
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span class="brand-mark" aria-hidden="true">S</span>
+          <span class="brand-text">
+            <strong>SUMMIT</strong>
+            <small>LEGAL ADVISORS</small>
+          </span>
+        </a>
         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
         <ul class="nav-links">
           <li><a href="#servicios">Servicios</a></li>
@@ -30,16 +36,18 @@
       </nav>
 
       <section class="hero container">
-        <p class="eyebrow">Asesoría legal estratégica para empresas y directivos</p>
-        <h1>Protegemos tus decisiones con visión jurídica y de negocio.</h1>
+        <p class="eyebrow">Estudio boutique en asesoría empresarial</p>
+        <h1>Asesoría legal elegante, estratégica y enfocada en resultados.</h1>
         <p class="hero-copy">
-          En <strong>Summit Legal Advisors</strong> acompañamos a empresas, emprendedores y
-          ejecutivos en asuntos <strong>laborales, corporativos, tributarios y penales económicos</strong>,
-          con un enfoque preventivo, técnico y orientado a resultados.
+          En <strong>Summit Legal Advisors</strong> acompañamos a empresas y líderes con una
+          práctica multidisciplinaria en derecho laboral, corporativo, compliance, tributario y
+          penal económico.
         </p>
         <div class="hero-cta">
-          <a class="btn btn-primary" href="#contacto">Agendar consulta</a>
-          <a class="btn btn-ghost" href="#servicios">Conocer servicios</a>
+          <a class="btn btn-primary" href="https://calendar.app.google/KAhHE9n26Adyb4Sz5" target="_blank" rel="noopener noreferrer"
+            >Programar reunión</a
+          >
+          <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
         </div>
       </section>
     </header>
@@ -47,40 +55,48 @@
     <main>
       <section class="section container" id="servicios">
         <div class="section-heading">
-          <p class="eyebrow">Áreas de práctica</p>
-          <h2>Soluciones legales integrales</h2>
+          <p class="eyebrow">Servicios especializados</p>
+          <h2>Soluciones legales a la medida de tu organización</h2>
         </div>
 
         <div class="cards">
           <article class="card">
-            <h3>Derecho Laboral</h3>
+            <h3>Auditorías</h3>
             <p>
-              Diseño de estructuras de contratación, compliance laboral, gestión de conflictos,
-              inspecciones y defensa en procedimientos administrativos y judiciales.
+              Auditorías legales preventivas para identificar brechas de cumplimiento, reducir
+              contingencias y fortalecer la toma de decisiones.
             </p>
           </article>
 
           <article class="card">
-            <h3>Derecho Corporativo</h3>
+            <h3>Políticas, RIT y bandas salariales</h3>
             <p>
-              Constitución y reorganización societaria, gobierno corporativo, pactos de socios,
-              due diligence y soporte legal en operaciones estratégicas.
+              Elaboración de políticas internas, Reglamento Interno de Trabajo y diseño de bandas
+              salariales alineadas a la normativa y a la estrategia de negocio.
             </p>
           </article>
 
           <article class="card">
-            <h3>Derecho Tributario</h3>
+            <h3>Comités de SST y hostigamiento sexual</h3>
             <p>
-              Planeamiento fiscal, revisión de contingencias, atención de fiscalizaciones y
-              defensa técnica frente a controversias tributarias.
+              Acompañamiento integral en la elección y formalización del comité de SST y/o comité
+              de intervención frente al hostigamiento sexual.
             </p>
           </article>
 
           <article class="card">
-            <h3>Penal Económico</h3>
+            <h3>Asesoría legal mensual o por casos</h3>
             <p>
-              Prevención y defensa en delitos económicos, programas de cumplimiento,
-              investigaciones internas y gestión de riesgos reputacionales.
+              Asesoría laboral, corporativa, compliance, tributaria y/o penal económica con
+              esquemas de atención continua o intervención en casos específicos.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Patrocinio judicial y representación</h3>
+            <p>
+              Patrocinio en procesos judiciales, representación en inspecciones de trabajo y
+              defensa en procedimientos trilaterales especiales.
             </p>
           </article>
         </div>
@@ -90,30 +106,28 @@
         <div class="container split">
           <div>
             <p class="eyebrow">Cómo trabajamos</p>
-            <h2>Rigor técnico + estrategia clara</h2>
+            <h2>Precisión jurídica con visión ejecutiva</h2>
             <p>
-              Nuestro enfoque combina análisis jurídico profundo con comprensión del negocio.
-              Esto nos permite prevenir riesgos, tomar decisiones informadas y defender tus
-              intereses con eficacia.
+              Diseñamos estrategias claras, con lenguaje directo y acompañamiento cercano en cada
+              etapa, para que cada decisión tenga respaldo legal y enfoque empresarial.
             </p>
           </div>
           <ol class="timeline">
-            <li><span>1</span> Diagnóstico legal y mapa de riesgos.</li>
-            <li><span>2</span> Estrategia personalizada con escenarios posibles.</li>
-            <li><span>3</span> Implementación, seguimiento y representación.</li>
+            <li><span>1</span> Diagnóstico técnico y matriz de riesgos.</li>
+            <li><span>2</span> Plan de acción legal y prioridades del negocio.</li>
+            <li><span>3</span> Implementación, seguimiento y defensa estratégica.</li>
           </ol>
         </div>
       </section>
 
       <section class="section container" id="equipo">
         <div class="section-heading">
-          <p class="eyebrow">Estudio boutique</p>
-          <h2>Atención directa y especializada</h2>
+          <p class="eyebrow">Estudio Summit</p>
+          <h2>Atención directa, sobria y de alto estándar</h2>
         </div>
         <p class="team-copy">
-          Somos un equipo multidisciplinario enfocado en entregar asesoría oportuna,
-          confidencial y alineada con los objetivos de cada cliente. Creemos en relaciones de
-          largo plazo basadas en confianza y excelencia profesional.
+          Nuestra propuesta combina excelencia técnica, comunicación ejecutiva y enfoque
+          preventivo para construir relaciones de confianza de largo plazo con cada cliente.
         </p>
       </section>
     </main>
@@ -121,15 +135,24 @@
     <footer class="site-footer" id="contacto">
       <div class="container footer-content">
         <div>
-          <h2>Conversemos sobre tu caso</h2>
+          <h2>Agenda una reunión con nuestro equipo</h2>
           <p>
-            Escríbenos para una primera evaluación y recibe una propuesta de acompañamiento
-            legal a la medida.
+            Conversemos sobre tus necesidades y definamos una estrategia legal clara para tu
+            empresa.
           </p>
         </div>
-        <a class="btn btn-primary" href="mailto:contacto@summitlegaladvisors.com"
-          >contacto@summitlegaladvisors.com</a
-        >
+        <div class="footer-cta">
+          <a
+            class="btn btn-primary"
+            href="https://calendar.app.google/KAhHE9n26Adyb4Sz5"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Reservar en Google Calendar</a
+          >
+          <a class="btn btn-ghost" href="mailto:contacto@summitlegaladvisors.com"
+            >contacto@summitlegaladvisors.com</a
+          >
+        </div>
       </div>
     </footer>
 
