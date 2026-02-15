@@ -1,13 +1,12 @@
 :root {
-  --bg: #0b1220;
-  --bg-soft: #111a2e;
+  --bg: #f4f4f4;
   --surface: #ffffff;
-  --text: #111827;
-  --text-light: #5f6b7f;
-  --primary: #224cff;
-  --primary-dark: #1735b8;
-  --ring: rgba(34, 76, 255, 0.2);
-  --radius: 18px;
+  --ink: #161923;
+  --ink-muted: #4f5665;
+  --line: #d5d8de;
+  --accent: #1a1e28;
+  --accent-soft: #f0f2f5;
+  --radius: 16px;
 }
 
 * {
@@ -18,8 +17,8 @@ html,
 body {
   margin: 0;
   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  color: var(--text);
-  background: #f5f7fb;
+  color: var(--ink);
+  background: var(--bg);
   scroll-behavior: smooth;
 }
 
@@ -29,23 +28,49 @@ body {
 }
 
 .site-header {
-  color: #f3f7ff;
-  background: radial-gradient(circle at 15% 10%, #2649d8, var(--bg));
-  padding-bottom: 5.5rem;
+  background: linear-gradient(180deg, #f6f6f7 0%, #f0f1f3 100%);
+  padding-bottom: 4.5rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.2rem 0;
+  padding: 1rem 0;
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
   color: inherit;
   text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.2px;
+}
+
+.brand-mark {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.brand-text {
+  display: grid;
+  line-height: 1;
+}
+
+.brand-text strong {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.brand-text small {
+  font-size: 0.73rem;
+  letter-spacing: 0.24em;
+  margin-top: 0.2rem;
 }
 
 .nav-links {
@@ -57,53 +82,56 @@ body {
 }
 
 .nav-links a {
-  color: #dce6ff;
+  color: var(--ink);
   text-decoration: none;
   font-weight: 500;
 }
 
 .nav-links a:hover {
-  color: white;
+  color: #000;
 }
 
 .menu-toggle {
   display: none;
   background: transparent;
   border: none;
-  color: white;
+  color: var(--ink);
   font-size: 1.4rem;
   cursor: pointer;
 }
 
 .hero {
-  padding-top: 3.5rem;
+  padding-top: 3.2rem;
 }
 
 .eyebrow {
   margin: 0;
-  color: #7f9bff;
-  font-weight: 700;
+  color: #5a6271;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
 }
 
 .hero h1 {
-  font-size: clamp(2rem, 5vw, 3.7rem);
-  line-height: 1.1;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1.05;
   margin: 0.9rem 0 1rem;
   max-width: 16ch;
+  font-weight: 600;
 }
 
 .hero-copy {
-  max-width: 63ch;
-  color: #d3defa;
-  font-size: 1.06rem;
-  line-height: 1.65;
+  max-width: 66ch;
+  color: var(--ink-muted);
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 
 .hero-cta {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.8rem;
   margin-top: 1.8rem;
 }
@@ -122,31 +150,34 @@ body {
 }
 
 .btn-primary {
-  background: var(--primary);
+  background: var(--accent);
   color: white;
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark);
+  background: #090b11;
 }
 
 .btn-ghost {
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  color: #eef3ff;
+  border: 1px solid #282d3c;
+  color: var(--ink);
 }
 
 .section {
-  padding: 5.5rem 0;
+  padding: 5rem 0;
 }
 
 .section-alt {
-  background: var(--bg-soft);
-  color: #ebf2ff;
+  background: var(--accent-soft);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .section-heading h2 {
   margin: 0.5rem 0 0;
-  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 600;
 }
 
 .cards {
@@ -160,18 +191,25 @@ body {
   background: var(--surface);
   border-radius: var(--radius);
   padding: 1.4rem;
-  border: 1px solid #e8edf7;
+  border: 1px solid #dfe2e8;
   box-shadow: 0 12px 24px -20px #0a1b4422;
+}
+
+.card:last-child {
+  grid-column: 1 / -1;
 }
 
 .card h3 {
   margin: 0 0 0.7rem;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .card p {
   margin: 0;
-  color: var(--text-light);
-  line-height: 1.6;
+  color: var(--ink-muted);
+  line-height: 1.65;
 }
 
 .split {
@@ -182,7 +220,7 @@ body {
 }
 
 .split p {
-  color: #cedbfa;
+  color: var(--ink-muted);
   line-height: 1.7;
 }
 
@@ -198,8 +236,8 @@ body {
   display: flex;
   gap: 0.75rem;
   align-items: center;
-  background: #16223c;
-  border: 1px solid #223459;
+  background: #fff;
+  border: 1px solid var(--line);
   border-radius: 14px;
   padding: 0.95rem;
 }
@@ -210,22 +248,22 @@ body {
   width: 1.8rem;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #2748b8;
+  background: var(--accent);
   color: #fff;
   font-weight: 700;
 }
 
 .team-copy {
   max-width: 72ch;
-  color: var(--text-light);
+  color: var(--ink-muted);
   line-height: 1.75;
   margin-top: 1rem;
 }
 
 .site-footer {
-  background: #0a1221;
-  color: #e3ebff;
-  padding: 4rem 0;
+  background: #10131b;
+  color: #edf0f7;
+  padding: 3.6rem 0;
 }
 
 .footer-content {
@@ -235,15 +273,36 @@ body {
   gap: 2rem;
 }
 
+.site-footer h2 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  margin: 0;
+}
+
 .site-footer p {
-  color: #b8caee;
+  color: #c2c9d8;
   max-width: 60ch;
+}
+
+.footer-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.site-footer .btn-ghost {
+  border-color: #c2c9d8;
+  color: #f4f7ff;
 }
 
 @media (max-width: 860px) {
   .cards,
   .split {
     grid-template-columns: 1fr;
+  }
+
+  .card:last-child {
+    grid-column: auto;
   }
 
   .menu-toggle {
@@ -254,8 +313,8 @@ body {
     position: absolute;
     right: 4vw;
     top: 4.2rem;
-    background: #0e1730;
-    border: 1px solid #233760;
+    background: #fff;
+    border: 1px solid var(--line);
     border-radius: 12px;
     padding: 0.75rem;
     min-width: 200px;
@@ -268,6 +327,14 @@ body {
     display: flex;
   }
 
+  .brand-mark {
+    font-size: 2.5rem;
+  }
+
+  .brand-text strong {
+    font-size: 1.5rem;
+  }
+
   .footer-content {
     flex-direction: column;
     align-items: flex-start;
@@ -277,6 +344,6 @@ body {
 .btn:focus-visible,
 .menu-toggle:focus-visible,
 .nav-links a:focus-visible {
-  outline: 3px solid var(--ring);
+  outline: 3px solid rgba(15, 18, 28, 0.22);
   outline-offset: 3px;
 }
