@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 540">
+  <!-- Summit Legal Advisors - Full Logo -->
+  <!-- S Monogram with inner stem detail -->
+  <g transform="translate(200,185)">
+    <!-- Main S curve - outer stroke -->
+    <path d="M5,-168 C80,-168 108,-132 108,-92 C108,-48 65,-28 12,-6 C-42,16 -88,40 -88,92 C-88,138 -52,168 25,168" stroke="#1a1a1a" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <!-- Upper crescent/moon detail -->
+    <path d="M-42,-162 C-42,-162 -90,-138 -90,-92 C-90,-58 -58,-40 -45,-34" stroke="#1a1a1a" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <!-- Central vertical stem (I) -->
+    <line x1="0" y1="-88" x2="0" y2="88" stroke="#1a1a1a" stroke-width="3.5"/>
+    <!-- Top serif -->
+    <line x1="-16" y1="-88" x2="16" y2="-88" stroke="#1a1a1a" stroke-width="3.5"/>
+    <!-- Bottom serif base -->
+    <line x1="-14" y1="88" x2="14" y2="88" stroke="#1a1a1a" stroke-width="3.5"/>
+    <!-- Pedestal triangle -->
+    <path d="M-10,88 L0,106 L10,88" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Laurel branch - left of text -->
+  <g transform="translate(112,402)">
+    <!-- Main stem -->
+    <path d="M12,5 C8,-5 6,-16 5,-28" stroke="#1a1a1a" stroke-width="1.3" fill="none"/>
+    <!-- Leaves left -->
+    <ellipse cx="1" cy="0" rx="6" ry="3" transform="rotate(-25,1,0)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="-1" cy="-8" rx="6" ry="3" transform="rotate(-35,-1,-8)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="-1" cy="-16" rx="5.5" ry="2.8" transform="rotate(-45,-1,-16)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="0" cy="-23" rx="5" ry="2.5" transform="rotate(-55,0,-23)" fill="#1a1a1a" opacity="0.65"/>
+    <!-- Leaves right -->
+    <ellipse cx="10" cy="-3" rx="6" ry="3" transform="rotate(20,10,-3)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="10" cy="-11" rx="6" ry="3" transform="rotate(30,10,-11)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="9" cy="-19" rx="5.5" ry="2.8" transform="rotate(40,9,-19)" fill="#1a1a1a" opacity="0.65"/>
+    <ellipse cx="7" cy="-26" rx="4.5" ry="2.3" transform="rotate(50,7,-26)" fill="#1a1a1a" opacity="0.65"/>
+  </g>
+
+  <!-- SUMMIT text -->
+  <text x="200" y="450" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="54" font-weight="600" letter-spacing="14" fill="#1a1a1a">SUMMIT</text>
+
+  <!-- LEGAL ADVISORS text -->
+  <text x="200" y="490" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="24" font-weight="500" letter-spacing="10" fill="#1a1a1a">LEGAL ADVISORS</text>
+</svg>
