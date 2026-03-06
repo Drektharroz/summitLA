@@ -1,3 +1,14 @@
+const siteNav = document.querySelector('.nav');
+
+if (siteNav) {
+  const updateNavState = () => {
+    siteNav.classList.toggle('is-scrolled', window.scrollY > 18);
+  };
+
+  updateNavState();
+  window.addEventListener('scroll', updateNavState, { passive: true });
+}
+
 const menuButton = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
 const heroPanel = document.querySelector('#heroPanel');
@@ -108,4 +119,38 @@ if (heroCanvas && !reducedMotion) {
     animate();
     window.addEventListener('resize', resizeCanvas);
   }
+}
+
+
+if (!reducedMotion) {
+  const revealElements = document.querySelectorAll('.reveal');
+
+  if (revealElements.length) {
+    if ('IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.08, rootMargin: '0px 0px -4% 0px' },
+      );
+
+      revealElements.forEach((element, index) => {
+        element.style.transitionDelay = `${Math.min(index * 55, 260)}ms`;
+        revealObserver.observe(element);
+      });
+    } else {
+      revealElements.forEach((element) => {
+        element.classList.add('is-visible');
+      });
+    }
+  }
+} else {
+  document.querySelectorAll('.reveal').forEach((element) => {
+    element.classList.add('is-visible');
+  });
 }
