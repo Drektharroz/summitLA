@@ -3,84 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Summit Legal Advisors | Estudio de abogados</title>
+    <title>Summit Legal Advisors | Estudio boutique de asesoría legal empresarial</title>
     <meta
       name="description"
       content="Summit Legal Advisors brinda asesoría laboral, corporativa, tributaria y penal económica con enfoque estratégico y preventivo."
     />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Summit Legal Advisors" />
+    <meta
+      property="og:description"
+      content="Asesoría legal elegante, estratégica y enfocada en resultados para empresas y líderes."
+    />
+    <meta property="og:url" content="https://drektharroz.github.io/summitLA/" />
+    <meta name="theme-color" content="#111317" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"
       rel="stylesheet"
     />
-    <script>document.documentElement.classList.add("js");</script>
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
     <header class="site-header" id="inicio">
-      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
-      <div class="hero-lights" aria-hidden="true">
-        <span class="light light-a"></span>
-        <span class="light light-b"></span>
+      <div class="header-shell">
+        <nav class="container nav" aria-label="Navegación principal">
+          <a class="brand" href="#inicio" aria-label="Ir al inicio">
+            <span class="brand-mark" aria-hidden="true">S</span>
+            <span class="brand-text">
+              <strong>SUMMIT</strong>
+              <small>LEGAL ADVISORS</small>
+            </span>
+          </a>
+
+          <button
+            class="menu-toggle"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+            aria-controls="mainMenu"
+          >
+            <span aria-hidden="true">☰</span>
+          </button>
+
+          <ul class="nav-links" id="mainMenu">
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#metodologia">Metodología</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+
+          <a
+            class="btn btn-header"
+            href="https://calendar.app.google/KAhHE9n26Adyb4Sz5"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Programar reunión</a
+          >
+        </nav>
       </div>
 
-      <nav class="container nav">
-        <a class="brand" href="#inicio" aria-label="Ir al inicio">
-          <span class="brand-mark" aria-hidden="true">S</span>
-          <span class="brand-text">
-            <strong>SUMMIT</strong>
-            <small>LEGAL ADVISORS</small>
-          </span>
-        </a>
-        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-        <ul class="nav-links">
-          <li><a href="#servicios" aria-label="Ir a servicios">Servicios</a></li>
-          <li><a href="#metodologia" aria-label="Ir a metodología">Metodología</a></li>
-          <li><a href="#equipo" aria-label="Ir a equipo">Equipo</a></li>
-          <li><a href="#contacto" aria-label="Ir a contacto">Contacto</a></li>
-        </ul>
-      </nav>
-
-      <section class="hero container">
-        <div class="hero-panel" id="heroPanel">
-          <div class="hero-grid" aria-hidden="true"></div>
-
-          <figure class="hero-emblem" aria-label="Emblema Summit Legal Advisors">
-            <svg class="logo-svg" viewBox="0 0 190 250" role="img" aria-hidden="true">
-              <title>Summit Legal Advisors</title>
-              <defs>
-                <linearGradient id="inkGradient" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="0%" stop-color="#0f1320" />
-                  <stop offset="100%" stop-color="#1f2534" />
-                </linearGradient>
-              </defs>
-
-              <path
-                class="logo-outline"
-                d="M120 16c-29 0-54 22-54 52 0 18 9 31 26 43l23 16c15 11 24 21 24 39 0 24-19 42-44 42-28 0-46-17-52-41"
-              />
-              <path
-                class="logo-s-fill"
-                d="M122 22c-27 3-44 23-44 44 0 14 6 24 20 35l23 17c17 12 29 26 29 47 0 32-25 57-60 57-22 0-43-10-56-31 11 13 27 20 43 20 29 0 48-20 48-45 0-17-8-28-24-40l-23-16C64 96 55 80 55 60 55 35 72 16 99 16c10 0 17 2 23 6z"
-              />
-              <line class="logo-stem" x1="96" y1="62" x2="96" y2="174" />
-              <path class="logo-base" d="M84 178h24l-12-10z" />
-
-              <path
-                class="logo-laurel"
-                d="M58 168c-17 7-28 23-30 41 4-14 12-24 24-30m6-8c-18 8-30 24-33 43 4-15 14-27 27-34m8-9c-18 9-30 27-31 46 4-17 15-30 29-37m8-8c-18 10-30 28-30 48 4-18 16-32 31-40"
-              />
-            </svg>
-            <figcaption>
-              <strong>SUMMIT</strong>
-              <span>LEGAL ADVISORS</span>
-            </figcaption>
-          </figure>
-
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-panel reveal" id="heroPanel">
+          <div class="hero-texture" aria-hidden="true"></div>
           <div class="hero-copy-wrap">
             <p class="eyebrow">Estudio boutique en asesoría empresarial</p>
-            <h1>Asesoría legal elegante, estratégica y enfocada en resultados.</h1>
+            <h1 id="hero-title">Asesoría legal elegante, estratégica y enfocada en resultados.</h1>
             <p class="hero-copy">
               En <strong>Summit Legal Advisors</strong> acompañamos a empresas y líderes con una
               práctica multidisciplinaria en derecho laboral, corporativo, compliance, tributario y
@@ -98,20 +90,52 @@
             </div>
           </div>
 
-          <ul class="proof-points" aria-label="Resultados y enfoque">
-            <li><strong>360°</strong><span>Asesoría multidisciplinaria</span></li>
-            <li><strong>24h</strong><span>Respuesta en temas críticos</span></li>
-            <li><strong>Preventivo</strong><span>Mitigación de contingencias</span></li>
-          </ul>
+          <aside class="hero-aside" aria-label="Señales de confianza">
+            <figure class="hero-emblem" aria-label="Emblema Summit Legal Advisors">
+              <svg class="logo-svg" viewBox="0 0 190 250" role="img" aria-hidden="true">
+                <title>Summit Legal Advisors</title>
+                <defs>
+                  <linearGradient id="inkGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#171a24" />
+                    <stop offset="100%" stop-color="#282f40" />
+                  </linearGradient>
+                </defs>
+                <path
+                  class="logo-outline"
+                  d="M120 16c-29 0-54 22-54 52 0 18 9 31 26 43l23 16c15 11 24 21 24 39 0 24-19 42-44 42-28 0-46-17-52-41"
+                />
+                <path
+                  class="logo-s-fill"
+                  d="M122 22c-27 3-44 23-44 44 0 14 6 24 20 35l23 17c17 12 29 26 29 47 0 32-25 57-60 57-22 0-43-10-56-31 11 13 27 20 43 20 29 0 48-20 48-45 0-17-8-28-24-40l-23-16C64 96 55 80 55 60 55 35 72 16 99 16c10 0 17 2 23 6z"
+                />
+                <line class="logo-stem" x1="96" y1="62" x2="96" y2="174" />
+                <path class="logo-base" d="M84 178h24l-12-10z" />
+                <path
+                  class="logo-laurel"
+                  d="M58 168c-17 7-28 23-30 41 4-14 12-24 24-30m6-8c-18 8-30 24-33 43 4-15 14-27 27-34m8-9c-18 9-30 27-31 46 4-17 15-30 29-37m8-8c-18 10-30 28-30 48 4-18 16-32 31-40"
+                />
+              </svg>
+              <figcaption>
+                <strong>SUMMIT</strong>
+                <span>LEGAL ADVISORS</span>
+              </figcaption>
+            </figure>
+
+            <ul class="proof-points" aria-label="Resultados y enfoque">
+              <li><strong>360°</strong><span>Asesoría multidisciplinaria</span></li>
+              <li><strong>24h</strong><span>Respuesta en temas críticos</span></li>
+              <li><strong>Preventivo</strong><span>Mitigación de contingencias</span></li>
+            </ul>
+          </aside>
         </div>
       </section>
     </header>
 
-    <main>
-      <section class="section container" id="servicios">
+    <main id="contenido">
+      <section class="section container" id="servicios" aria-labelledby="servicios-title">
         <div class="section-heading reveal">
           <p class="eyebrow">Servicios especializados</p>
-          <h2>Soluciones legales a la medida de tu organización</h2>
+          <h2 id="servicios-title">Soluciones legales a la medida de tu organización</h2>
         </div>
 
         <div class="cards">
@@ -157,41 +181,65 @@
         </div>
       </section>
 
-      <section class="section section-alt" id="metodologia">
-        <div class="container split reveal">
-          <div>
+      <section class="section section-alt" id="metodologia" aria-labelledby="metodologia-title">
+        <div class="container methodology reveal">
+          <div class="methodology-copy">
             <p class="eyebrow">Cómo trabajamos</p>
-            <h2>Precisión jurídica con visión ejecutiva</h2>
+            <h2 id="metodologia-title">Precisión jurídica con visión ejecutiva</h2>
             <p>
               Diseñamos estrategias claras, con lenguaje directo y acompañamiento cercano en cada
               etapa, para que cada decisión tenga respaldo legal y enfoque empresarial.
             </p>
           </div>
-          <ol class="timeline">
-            <li><span>1</span> Diagnóstico técnico y matriz de riesgos.</li>
-            <li><span>2</span> Plan de acción legal y prioridades del negocio.</li>
-            <li><span>3</span> Implementación, seguimiento y defensa estratégica.</li>
+
+          <ol class="timeline" aria-label="Proceso de trabajo Summit">
+            <li>
+              <span>1</span>
+              <div>
+                <h3>Diagnóstico técnico</h3>
+                <p>Matriz de riesgos legal y mapa de contingencias prioritarias.</p>
+              </div>
+            </li>
+            <li>
+              <span>2</span>
+              <div>
+                <h3>Estrategia accionable</h3>
+                <p>Plan legal con prioridades, plazos y foco en continuidad operativa.</p>
+              </div>
+            </li>
+            <li>
+              <span>3</span>
+              <div>
+                <h3>Implementación y defensa</h3>
+                <p>Acompañamiento, seguimiento y representación estratégica.</p>
+              </div>
+            </li>
           </ol>
         </div>
       </section>
 
-      <section class="section container" id="equipo">
+      <section class="section container" id="equipo" aria-labelledby="equipo-title">
         <div class="team-panel reveal">
           <div class="section-heading">
             <p class="eyebrow">Estudio Summit</p>
-            <h2>Atención directa, sobria y de alto estándar</h2>
+            <h2 id="equipo-title">Atención directa, sobria y de alto estándar</h2>
           </div>
           <p class="team-copy">
             Nuestra propuesta combina excelencia técnica, comunicación ejecutiva y enfoque
             preventivo para construir relaciones de confianza de largo plazo con cada cliente.
           </p>
+          <ul class="trust-list" aria-label="Principios de servicio">
+            <li>Relación de socio estratégico</li>
+            <li>Comunicación directa y ejecutiva</li>
+            <li>Criterio jurídico orientado a negocio</li>
+          </ul>
         </div>
       </section>
     </main>
 
     <footer class="site-footer" id="contacto">
       <div class="container footer-content">
-        <div class="footer-intro">
+        <div class="footer-intro reveal">
           <p class="eyebrow">Contacto</p>
           <h2>Agenda una reunión con nuestro equipo</h2>
           <p>
@@ -211,7 +259,12 @@
           </div>
         </div>
 
-        <form class="contact-form" action="mailto:contacto@summitlegaladvisors.com" method="post" enctype="text/plain">
+        <form
+          class="contact-form reveal"
+          action="mailto:contacto@summitlegaladvisors.com"
+          method="post"
+          enctype="text/plain"
+        >
           <h3>Escríbenos</h3>
           <label for="nombre">Nombre completo</label>
           <input id="nombre" name="nombre" type="text" autocomplete="name" required />
