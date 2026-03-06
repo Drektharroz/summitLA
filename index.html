@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script>document.documentElement.classList.add("js");</script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -34,10 +35,10 @@
         </a>
         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
         <ul class="nav-links">
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#metodologia">Metodología</a></li>
-          <li><a href="#equipo">Equipo</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#servicios" aria-label="Ir a servicios">Servicios</a></li>
+          <li><a href="#metodologia" aria-label="Ir a metodología">Metodología</a></li>
+          <li><a href="#equipo" aria-label="Ir a equipo">Equipo</a></li>
+          <li><a href="#contacto" aria-label="Ir a contacto">Contacto</a></li>
         </ul>
       </nav>
 
@@ -108,13 +109,13 @@
 
     <main>
       <section class="section container" id="servicios">
-        <div class="section-heading">
+        <div class="section-heading reveal">
           <p class="eyebrow">Servicios especializados</p>
           <h2>Soluciones legales a la medida de tu organización</h2>
         </div>
 
         <div class="cards">
-          <article class="card">
+          <article class="card reveal">
             <h3>Auditorías</h3>
             <p>
               Auditorías legales preventivas para identificar brechas de cumplimiento, reducir
@@ -122,7 +123,7 @@
             </p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <h3>Políticas, RIT y bandas salariales</h3>
             <p>
               Elaboración de políticas internas, Reglamento Interno de Trabajo y diseño de bandas
@@ -130,7 +131,7 @@
             </p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <h3>Comités de SST y hostigamiento sexual</h3>
             <p>
               Acompañamiento integral en la elección y formalización del comité de SST y/o comité
@@ -138,7 +139,7 @@
             </p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <h3>Asesoría legal mensual o por casos</h3>
             <p>
               Asesoría laboral, corporativa, compliance, tributaria y/o penal económica con
@@ -146,7 +147,7 @@
             </p>
           </article>
 
-          <article class="card">
+          <article class="card reveal">
             <h3>Patrocinio judicial y representación</h3>
             <p>
               Patrocinio en procesos judiciales, representación en inspecciones de trabajo y
@@ -157,7 +158,7 @@
       </section>
 
       <section class="section section-alt" id="metodologia">
-        <div class="container split">
+        <div class="container split reveal">
           <div>
             <p class="eyebrow">Cómo trabajamos</p>
             <h2>Precisión jurídica con visión ejecutiva</h2>
@@ -175,38 +176,54 @@
       </section>
 
       <section class="section container" id="equipo">
-        <div class="section-heading">
-          <p class="eyebrow">Estudio Summit</p>
-          <h2>Atención directa, sobria y de alto estándar</h2>
+        <div class="team-panel reveal">
+          <div class="section-heading">
+            <p class="eyebrow">Estudio Summit</p>
+            <h2>Atención directa, sobria y de alto estándar</h2>
+          </div>
+          <p class="team-copy">
+            Nuestra propuesta combina excelencia técnica, comunicación ejecutiva y enfoque
+            preventivo para construir relaciones de confianza de largo plazo con cada cliente.
+          </p>
         </div>
-        <p class="team-copy">
-          Nuestra propuesta combina excelencia técnica, comunicación ejecutiva y enfoque
-          preventivo para construir relaciones de confianza de largo plazo con cada cliente.
-        </p>
       </section>
     </main>
 
     <footer class="site-footer" id="contacto">
       <div class="container footer-content">
-        <div>
+        <div class="footer-intro">
+          <p class="eyebrow">Contacto</p>
           <h2>Agenda una reunión con nuestro equipo</h2>
           <p>
-            Conversemos sobre tus necesidades y definamos una estrategia legal clara para tu
-            empresa.
+            Comparte tu necesidad legal y te responderemos con una propuesta clara para tu empresa.
           </p>
+          <div class="footer-cta">
+            <a
+              class="btn btn-primary"
+              href="https://calendar.app.google/KAhHE9n26Adyb4Sz5"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Reservar en Google Calendar</a
+            >
+            <a class="btn btn-ghost" href="mailto:contacto@summitlegaladvisors.com"
+              >contacto@summitlegaladvisors.com</a
+            >
+          </div>
         </div>
-        <div class="footer-cta">
-          <a
-            class="btn btn-primary"
-            href="https://calendar.app.google/KAhHE9n26Adyb4Sz5"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Reservar en Google Calendar</a
-          >
-          <a class="btn btn-ghost" href="mailto:contacto@summitlegaladvisors.com"
-            >contacto@summitlegaladvisors.com</a
-          >
-        </div>
+
+        <form class="contact-form" action="mailto:contacto@summitlegaladvisors.com" method="post" enctype="text/plain">
+          <h3>Escríbenos</h3>
+          <label for="nombre">Nombre completo</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required />
+
+          <label for="correo">Correo corporativo</label>
+          <input id="correo" name="correo" type="email" autocomplete="email" required />
+
+          <label for="mensaje">¿Cómo podemos ayudarte?</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button class="btn btn-form" type="submit">Enviar consulta</button>
+        </form>
       </div>
     </footer>
 
