@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Summit Legal Advisors | Estudio boutique de asesoría legal empresarial</title>
+    <title>Summit Legal Advisors | Asesoría legal empresarial boutique</title>
     <meta
       name="description"
       content="Summit Legal Advisors brinda asesoría laboral, corporativa, tributaria y penal económica con enfoque estratégico y preventivo."
@@ -15,13 +15,25 @@
       content="Asesoría legal elegante, estratégica y enfocada en resultados para empresas y líderes."
     />
     <meta property="og:url" content="https://drektharroz.github.io/summitLA/" />
+    <meta property="og:image" content="assets/logo-summit-oficial.jpg" />
     <meta name="theme-color" content="#111317" />
+    <link rel="icon" href="assets/logo-summit-oficial.jpg" type="image/jpeg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Summit Legal Advisors",
+        "url": "https://drektharroz.github.io/summitLA/",
+        "email": "contacto@summitlegaladvisors.com",
+        "description": "Estudio boutique de asesoría legal empresarial con enfoque estratégico y preventivo."
+      }
+    </script>
     <script>
       document.documentElement.classList.add('js');
     </script>
@@ -34,11 +46,13 @@
       <div class="header-shell">
         <nav class="container nav" aria-label="Navegación principal">
           <a class="brand" href="#inicio" aria-label="Ir al inicio">
-            <span class="brand-mark" aria-hidden="true">S</span>
-            <span class="brand-text">
-              <strong>SUMMIT</strong>
-              <small>LEGAL ADVISORS</small>
-            </span>
+            <img
+              class="brand-logo"
+              src="assets/logo-summit-oficial.jpg"
+              alt="Summit Legal Advisors"
+              width="220"
+              height="220"
+            />
           </a>
 
           <button
@@ -53,7 +67,7 @@
           <ul class="nav-links" id="mainMenu">
             <li><a href="#servicios">Servicios</a></li>
             <li><a href="#metodologia">Metodología</a></li>
-            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#equipo">Estudio</a></li>
             <li><a href="#contacto">Contacto</a></li>
           </ul>
 
@@ -69,7 +83,6 @@
 
       <section class="hero container" aria-labelledby="hero-title">
         <div class="hero-panel reveal" id="heroPanel">
-          <div class="hero-texture" aria-hidden="true"></div>
           <div class="hero-copy-wrap">
             <p class="eyebrow">Estudio boutique en asesoría empresarial</p>
             <h1 id="hero-title">Asesoría legal elegante, estratégica y enfocada en resultados.</h1>
@@ -88,44 +101,29 @@
               >
               <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
             </div>
-          </div>
-
-          <aside class="hero-aside" aria-label="Señales de confianza">
-            <figure class="hero-emblem" aria-label="Emblema Summit Legal Advisors">
-              <svg class="logo-svg" viewBox="0 0 190 250" role="img" aria-hidden="true">
-                <title>Summit Legal Advisors</title>
-                <defs>
-                  <linearGradient id="inkGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#171a24" />
-                    <stop offset="100%" stop-color="#282f40" />
-                  </linearGradient>
-                </defs>
-                <path
-                  class="logo-outline"
-                  d="M120 16c-29 0-54 22-54 52 0 18 9 31 26 43l23 16c15 11 24 21 24 39 0 24-19 42-44 42-28 0-46-17-52-41"
-                />
-                <path
-                  class="logo-s-fill"
-                  d="M122 22c-27 3-44 23-44 44 0 14 6 24 20 35l23 17c17 12 29 26 29 47 0 32-25 57-60 57-22 0-43-10-56-31 11 13 27 20 43 20 29 0 48-20 48-45 0-17-8-28-24-40l-23-16C64 96 55 80 55 60 55 35 72 16 99 16c10 0 17 2 23 6z"
-                />
-                <line class="logo-stem" x1="96" y1="62" x2="96" y2="174" />
-                <path class="logo-base" d="M84 178h24l-12-10z" />
-                <path
-                  class="logo-laurel"
-                  d="M58 168c-17 7-28 23-30 41 4-14 12-24 24-30m6-8c-18 8-30 24-33 43 4-15 14-27 27-34m8-9c-18 9-30 27-31 46 4-17 15-30 29-37m8-8c-18 10-30 28-30 48 4-18 16-32 31-40"
-                />
-              </svg>
-              <figcaption>
-                <strong>SUMMIT</strong>
-                <span>LEGAL ADVISORS</span>
-              </figcaption>
-            </figure>
-
             <ul class="proof-points" aria-label="Resultados y enfoque">
               <li><strong>360°</strong><span>Asesoría multidisciplinaria</span></li>
               <li><strong>24h</strong><span>Respuesta en temas críticos</span></li>
               <li><strong>Preventivo</strong><span>Mitigación de contingencias</span></li>
             </ul>
+          </div>
+
+          <aside class="hero-aside" aria-label="Identidad Summit Legal Advisors">
+            <figure class="hero-emblem">
+              <img
+                src="assets/logo-summit-oficial.jpg"
+                alt="Logo oficial de Summit Legal Advisors"
+                class="hero-logo"
+                width="500"
+                height="500"
+                loading="eager"
+                decoding="async"
+              />
+            </figure>
+            <p class="hero-aside-copy">
+              Precisión jurídica, criterio ejecutivo y acompañamiento cercano para decisiones de
+              negocio con respaldo legal.
+            </p>
           </aside>
         </div>
       </section>
@@ -240,6 +238,15 @@
     <footer class="site-footer" id="contacto">
       <div class="container footer-content">
         <div class="footer-intro reveal">
+          <img
+            src="assets/logo-summit-oficial.jpg"
+            class="footer-logo"
+            alt="Summit Legal Advisors"
+            width="170"
+            height="170"
+            loading="lazy"
+            decoding="async"
+          />
           <p class="eyebrow">Contacto</p>
           <h2>Agenda una reunión con nuestro equipo</h2>
           <p>
@@ -257,6 +264,11 @@
               >contacto@summitlegaladvisors.com</a
             >
           </div>
+          <ul class="footer-links" aria-label="Enlaces secundarios">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#metodologia">Metodología</a></li>
+          </ul>
         </div>
 
         <form
