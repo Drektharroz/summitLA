@@ -1,15 +1,13 @@
-const siteNav = document.querySelector('.nav');
+const nav = document.querySelector('.nav');
 const menuButton = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
+const navAnchors = document.querySelectorAll('.nav-links a');
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-if (siteNav) {
-  const updateNavState = () => {
-    siteNav.classList.toggle('is-scrolled', window.scrollY > 12);
-  };
-
-  updateNavState();
-  window.addEventListener('scroll', updateNavState, { passive: true });
+if (nav) {
+  const onScroll = () => nav.classList.toggle('is-scrolled', window.scrollY > 16);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
 }
 
 if (menuButton && navLinks) {
@@ -19,19 +17,16 @@ if (menuButton && navLinks) {
   };
 
   menuButton.addEventListener('click', () => {
-    const willOpen = !navLinks.classList.contains('open');
-    navLinks.classList.toggle('open', willOpen);
-    menuButton.setAttribute('aria-expanded', String(willOpen));
+    const isOpen = navLinks.classList.toggle('open');
+    menuButton.setAttribute('aria-expanded', String(isOpen));
   });
 
-  navLinks.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', closeMenu);
+  navAnchors.forEach((anchor) => {
+    anchor.addEventListener('click', closeMenu);
   });
 
   document.addEventListener('click', (event) => {
-    if (!navLinks.contains(event.target) && !menuButton.contains(event.target)) {
-      closeMenu();
-    }
+    if (!menuButton.contains(event.target) && !navLinks.contains(event.target)) closeMenu();
   });
 
   document.addEventListener('keydown', (event) => {
@@ -42,29 +37,55 @@ if (menuButton && navLinks) {
   });
 }
 
-const revealElements = document.querySelectorAll('.reveal');
+const sections = [...navAnchors]
+  .map((anchor) => document.querySelector(anchor.getAttribute('href')))
+  .filter(Boolean);
 
+if (sections.length && 'IntersectionObserver' in window) {
+  const sectionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const activeId = `#${entry.target.id}`;
+        navAnchors.forEach((anchor) => {
+          const isActive = anchor.getAttribute('href') === activeId;
+          anchor.classList.toggle('active', isActive);
+          if (isActive) {
+            anchor.setAttribute('aria-current', 'page');
+          } else {
+            anchor.removeAttribute('aria-current');
+          }
+        });
+      });
+    },
+    { threshold: 0.45, rootMargin: '-20% 0px -45% 0px' },
+  );
+
+  sections.forEach((section) => sectionObserver.observe(section));
+}
+
+const revealElements = document.querySelectorAll('.reveal');
 if (revealElements.length) {
   if (!reducedMotion && 'IntersectionObserver' in window) {
     const revealObserver = new IntersectionObserver(
       (entries, observer) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible');
-            observer.unobserve(entry.target);
-          }
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
         });
       },
-      { threshold: 0.12, rootMargin: '0px 0px -8% 0px' },
+      { threshold: 0.15, rootMargin: '0px 0px -6% 0px' },
     );
 
     revealElements.forEach((element, index) => {
-      element.style.transitionDelay = `${Math.min(index * 70, 280)}ms`;
+      element.style.transitionDelay = `${Math.min(index * 40, 220)}ms`;
       revealObserver.observe(element);
     });
   } else {
-    revealElements.forEach((element) => {
-      element.classList.add('is-visible');
-    });
+    revealElements.forEach((element) => element.classList.add('is-visible'));
   }
 }
+
+const yearElement = document.getElementById('year');
+if (yearElement) yearElement.textContent = String(new Date().getFullYear());
