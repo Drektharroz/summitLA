@@ -1,3 +1,8 @@
+const navEl = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+  navEl?.classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-link');
 
@@ -5,8 +10,13 @@ const sectionObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
-      navLinks.forEach((link) => link.classList.remove('active'));
-      document.querySelector(`.nav-link[href="#${entry.target.id}"]`)?.classList.add('active');
+      navLinks.forEach((link) => {
+        link.classList.remove('active');
+        link.removeAttribute('aria-current');
+      });
+      const activeLink = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+      activeLink?.classList.add('active');
+      activeLink?.setAttribute('aria-current', 'page');
     });
   },
   { threshold: 0.35 }
