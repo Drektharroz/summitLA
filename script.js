@@ -149,3 +149,14 @@ if (legalModal && legalTitle && legalBody && legalTriggerButtons.length) {
     if (event.key === 'Escape' && legalModal.classList.contains('open')) closeLegalModal();
   });
 }
+
+const brandImages = document.querySelectorAll('img[data-fallback-src]');
+if (brandImages.length) {
+  brandImages.forEach((image) => {
+    image.addEventListener('error', () => {
+      const fallback = image.getAttribute('data-fallback-src');
+      if (!fallback || image.src.endsWith(fallback)) return;
+      image.src = fallback;
+    });
+  });
+}
