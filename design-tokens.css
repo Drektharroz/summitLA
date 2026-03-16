@@ -1,0 +1,68 @@
+:root {
+  /* Colors */
+  --color-obsidian: #0a0a0f;
+  --color-midnight: #0f1117;
+  --color-surface: #16181f;
+  --color-gold: #c9a84c;
+  --color-gold-light: #e8c87a;
+  --color-platinum: #e8e6e1;
+  --color-mist: #9a9894;
+  --color-white: #ffffff;
+  --color-ink: #0d0d0d;
+
+  /* Typography */
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+
+  --text-xs: clamp(0.75rem, 0.15vw + 0.72rem, 0.8125rem);
+  --text-sm: clamp(0.875rem, 0.2vw + 0.82rem, 0.95rem);
+  --text-base: clamp(1rem, 0.25vw + 0.94rem, 1.125rem);
+  --text-lg: clamp(1.125rem, 0.45vw + 1rem, 1.3rem);
+  --text-xl: clamp(1.25rem, 0.75vw + 1.08rem, 1.6rem);
+  --text-2xl: clamp(1.5rem, 1vw + 1.2rem, 2rem);
+  --text-3xl: clamp(1.75rem, 1.4vw + 1.35rem, 2.5rem);
+  --text-4xl: clamp(2rem, 2vw + 1.5rem, 3rem);
+  --text-5xl: clamp(2.25rem, 3vw + 1.5rem, 4rem);
+  --text-6xl: clamp(2.5rem, 4vw + 1.6rem, 5rem);
+  --text-hero: clamp(2.5rem, 5vw + 1rem, 5rem);
+  --text-section: clamp(1.75rem, 3vw + 0.5rem, 3rem);
+
+  /* Spacing 4px scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-14: 3.5rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Radius */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+
+  /* Shadows */
+  --shadow-gold: 0 0 40px rgba(201, 168, 76, 0.08), 0 8px 32px rgba(0, 0, 0, 0.4);
+
+  /* Transition */
+  --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layering */
+  --z-nav: 1000;
+  --z-modal: 1200;
+  --z-toast: 1300;
+
+  /* Layout */
+  --container-max: 1200px;
+}
+
+/* Breakpoint reference
+@custom-media --bp-md (min-width: 768px);
+@custom-media --bp-lg (min-width: 1024px);
+@custom-media --bp-xl (min-width: 1280px);
+*/
