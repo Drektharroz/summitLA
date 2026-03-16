@@ -88,3 +88,64 @@ if (revealElements.length) {
 
 const yearElement = document.getElementById('year');
 if (yearElement) yearElement.textContent = String(new Date().getFullYear());
+
+const heroBackground = document.querySelector('.hero-bg');
+if (heroBackground && !reducedMotion) {
+  window.addEventListener(
+    'pointermove',
+    (event) => {
+      const x = (event.clientX / window.innerWidth - 0.5) * 10;
+      const y = (event.clientY / window.innerHeight - 0.5) * 10;
+      heroBackground.style.transform = `translate(${x}px, ${y}px)`;
+    },
+    { passive: true },
+  );
+}
+
+const legalTriggerButtons = document.querySelectorAll('.legal-trigger');
+const legalModal = document.getElementById('legalModal');
+const legalTitle = document.getElementById('legalTitle');
+const legalBody = document.getElementById('legalBody');
+const legalCloseButtons = document.querySelectorAll('[data-close-legal]');
+
+const legalContent = {
+  privacidad: {
+    title: 'Política de privacidad',
+    body: 'Tratamos los datos que compartes únicamente para fines de contacto profesional, diagnóstico legal-contable y eventual prestación de servicios. No comercializamos información personal y aplicamos medidas razonables de seguridad conforme a la normativa vigente en Perú.',
+  },
+  terminos: {
+    title: 'Términos y condiciones',
+    body: 'El contenido del sitio es informativo y no constituye asesoría legal o contable definitiva. Toda recomendación formal se emite luego de diagnóstico del caso, alcance acordado y revisión documental.',
+  },
+  cookies: {
+    title: 'Política de cookies',
+    body: 'Este sitio puede utilizar cookies técnicas y analíticas para mejorar la experiencia de navegación y rendimiento. Puedes gestionar preferencias desde tu navegador en cualquier momento.',
+  },
+};
+
+if (legalModal && legalTitle && legalBody && legalTriggerButtons.length) {
+  const openLegalModal = (key) => {
+    const item = legalContent[key] || legalContent.privacidad;
+    legalTitle.textContent = item.title;
+    legalBody.textContent = item.body;
+    legalModal.classList.add('open');
+    legalModal.setAttribute('aria-hidden', 'false');
+  };
+
+  const closeLegalModal = () => {
+    legalModal.classList.remove('open');
+    legalModal.setAttribute('aria-hidden', 'true');
+  };
+
+  legalTriggerButtons.forEach((button) => {
+    button.addEventListener('click', () => openLegalModal(button.dataset.legal));
+  });
+
+  legalCloseButtons.forEach((button) => {
+    button.addEventListener('click', closeLegalModal);
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && legalModal.classList.contains('open')) closeLegalModal();
+  });
+}
