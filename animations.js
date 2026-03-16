@@ -32,14 +32,23 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     once: true,
   });
 
-  gsap.from(".service-card", {
-    scrollTrigger: { trigger: "#servicios", start: "top 75%" },
-    y: 60,
-    opacity: 0,
-    duration: 0.7,
-    stagger: 0.12,
-    ease: "power3.out",
-  });
+  gsap.fromTo(".service-card",
+    { y: 50, opacity: 0 },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 0.65,
+      stagger: 0.1,
+      ease: "power3.out",
+      scrollTrigger: {
+        trigger: "#servicios",
+        start: "top 85%",
+        once: true,
+        toggleActions: "play none none none",
+      },
+      clearProps: "opacity,transform",
+    }
+  );
 
   document.querySelectorAll(".section-title").forEach((el) => {
     const words = el.textContent.split(" ");
@@ -54,17 +63,6 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     });
   });
 
-  gsap.from(".timeline-line", {
-    scrollTrigger: { trigger: "#metodologia", start: "top 70%", scrub: 1 },
-    scaleX: 0,
-    transformOrigin: "left center",
-  });
-
-  gsap.to(".hero-logo", {
-    scrollTrigger: { trigger: "#hero", scrub: true },
-    y: -80,
-    opacity: 0.3,
-  });
 } else {
   gsap.globalTimeline.timeScale(0);
 }
