@@ -20,28 +20,6 @@
     <meta name="theme-color" content="#0A0A0F" />
     <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="./styles.css" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "LegalService",
-        "name": "Summit Legal Advisors",
-        "url": "https://drektharroz.github.io/summitLA/",
-        "address": {
-          "@type": "PostalAddress",
-          "addressCountry": "PE",
-          "addressLocality": "Lima"
-        },
-        "areaServed": "Peru",
-        "serviceType": [
-          "Derecho Empresarial",
-          "Derecho Laboral",
-          "Asesoría Tributaria",
-          "Compliance",
-          "Derecho Penal Económico"
-        ]
-      }
-    </script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
@@ -49,28 +27,26 @@
     <nav aria-label="Navegación principal">
       <div class="container nav-shell">
         <a class="logo-wrap" href="#hero" aria-label="Inicio Summit Legal Advisors">
-          <img src="./assets/logo.svg" alt="Logo Summit Legal Advisors" width="180" height="46" />
+          <img src="./assets/logo.png" alt="Summit Legal Advisors" width="180" height="auto" />
         </a>
-
         <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
           <span></span><span></span><span></span>
         </button>
-
         <ul class="nav-links">
           <li><a class="nav-link active" href="#hero">Inicio</a></li>
           <li><a class="nav-link" href="#servicios">Servicios</a></li>
           <li><a class="nav-link" href="#impacto">Impacto</a></li>
           <li><a class="nav-link" href="#metodologia">Metodología</a></li>
+          <li><a class="nav-link" href="#equipo">Equipo</a></li>
           <li><a class="nav-link" href="#contacto">Contacto</a></li>
         </ul>
-
         <a class="btn-primary nav-cta" href="#contacto">Solicitar reunión</a>
       </div>
       <div class="mobile-menu" id="mobileMenu">
         <a class="nav-link" href="#hero">Inicio</a>
         <a class="nav-link" href="#servicios">Servicios</a>
         <a class="nav-link" href="#impacto">Impacto</a>
-        <a class="nav-link" href="#valor">Valor</a>
+        <a class="nav-link" href="#metodologia">Metodología</a>
         <a class="nav-link" href="#equipo">Equipo</a>
         <a class="nav-link" href="#contacto">Contacto</a>
       </div>
@@ -82,23 +58,47 @@
         <div class="container hero-grid">
           <div>
             <p class="hero-label">Asesoría legal de alto valor</p>
-            <h1 class="hero-title"><span class="text-gold-shimmer">Blindamos</span> tu operación</h1>
-            <p class="hero-subtitle">Protegemos la continuidad y rentabilidad de su empresa con defensa legal y estructura estratégica para directorio, gerencia general y finanzas.</p>
+            <h1 class="hero-title"><span class="text-gold-shimmer">Blindamos</span> su operación</h1>
+            <p class="hero-subtitle">
+              Protegemos la continuidad y rentabilidad de su empresa con defensa legal y estructura estratégica para directorio,
+              gerencia general y finanzas.
+            </p>
             <div class="hero-ctas">
               <a class="btn-primary" href="#contacto">Solicitar evaluación ejecutiva</a>
               <a class="btn-secondary" href="#servicios">Ver servicios</a>
             </div>
-            <ul class="hero-stats">
-              <li><strong class="stat-number" data-target="150" data-suffix="+">0+</strong><span>empresas asesoradas</span></li>
-              <li><strong class="stat-number" data-target="8" data-suffix="+">0+</strong><span>años de experiencia</span></li>
-              <li><strong class="stat-number" data-target="45" data-suffix="M+">0M+</strong><span>en contingencias gestionadas</span></li>
-            </ul>
           </div>
           <div class="hero-visual">
             <div class="hero-logo">
-              <img src="./assets/logo.svg" alt="Isotipo Summit Legal Advisors en dorado" width="360" height="92" />
+              <img src="./assets/logo.png" alt="Summit Legal Advisors" width="360" height="auto" />
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="impacto-numerico" aria-label="Métricas de impacto" class="section-dark">
+        <div class="container">
+          <ul class="stats-grid" role="list">
+            <li class="stat-item">
+              <span class="stat-number" data-target="150" data-suffix="+" aria-label="Más de 150 empresas asesoradas">0</span>
+              <span class="stat-label">Empresas asesoradas</span>
+            </li>
+            <li class="stat-item">
+              <span class="stat-number" data-target="8" data-suffix="+" aria-label="Más de 8 años de experiencia">0</span>
+              <span class="stat-label">Años de experiencia</span>
+            </li>
+            <li class="stat-item">
+              <span
+                class="stat-number"
+                data-target="45"
+                data-prefix="S/ "
+                data-suffix="M+"
+                aria-label="Más de 45 millones de soles en contingencias gestionadas"
+                >0</span
+              >
+              <span class="stat-label">En contingencias gestionadas</span>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -107,44 +107,66 @@
           <p class="section-kicker">Áreas de práctica</p>
           <h2 class="section-title">Servicios diseñados para decisiones empresariales críticas</h2>
           <div class="services-grid">
-            <article class="service-card"><span class="service-number">01</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 26h24M8 26V12l8-6 8 6v14M12 26V16h8v10"/></svg></div><h3>Derecho Empresarial</h3><p>Estructuramos la base jurídica de su compañía para escalar sin fricciones.</p><ul><li>Societario</li><li>Contratos complejos</li><li>M&amp;A</li><li>Governance</li></ul><a href="#contacto">Conocer más →</a></article>
-            <article class="service-card"><span class="service-number">02</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 7v18M8 11h16M10 11l-4 7h8l-4-7zm12 0l-4 7h8l-4-7z"/></svg></div><h3>Derecho Laboral</h3><p>Defensa preventiva y litigiosa frente a inspecciones y conflictos laborales.</p><ul><li>SUNAFIL</li><li>Inspecciones</li><li>Litigios</li><li>Desvinculación</li></ul><a href="#contacto">Conocer más →</a></article>
-            <article class="service-card"><span class="service-number">03</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 4h14v24H9zM12 10h8M12 14h8M12 18h6"/><path d="M16 22l2 2 4-4"/></svg></div><h3>Asesoría Legal-Tributaria</h3><p>Optimizamos la carga fiscal sin sacrificar cumplimiento ni reputación.</p><ul><li>SUNAT</li><li>Planeamiento</li><li>Defensa fiscal</li><li>Contingencias</li></ul><a href="#contacto">Conocer más →</a></article>
-            <article class="service-card"><span class="service-number">04</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="16" cy="16" r="10"/><path d="m12 16 3 3 5-6"/></svg></div><h3>Compliance Corporativo</h3><p>Instalamos sistemas de prevención para reducir riesgo regulatorio y penal.</p><ul><li>Programas anti-corrupción</li><li>Ley 30424</li><li>Auditoría interna</li><li>Canales de denuncia</li></ul><a href="#contacto">Conocer más →</a></article>
-            <article class="service-card"><span class="service-number">05</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 24h20M10 24v-8h12v8M16 8l6 4H10l6-4z"/><path d="M12 16V12h8v4"/></svg></div><h3>Derecho Penal-Económico</h3><p>Defendemos patrimonio y reputación de la empresa y sus ejecutivos.</p><ul><li>Lavado de activos</li><li>Delitos tributarios</li><li>Defensa ejecutivos</li><li>Investigaciones</li></ul><a href="#contacto">Conocer más →</a></article>
-            <article class="service-card"><span class="service-number">06</span><div class="icon-wrap"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 26h22M9 26V14m7 12V10m7 16V6"/></svg></div><h3>Contabilidad Externa</h3><p>Convertimos su data contable en control ejecutivo y decisiones más rápidas.</p><ul><li>Reportes gerenciales</li><li>Orden documental</li><li>Cierres mensuales</li><li>Soporte auditoría</li></ul><a href="#contacto">Conocer más →</a></article>
+            <article class="service-card" aria-labelledby="srv-1-title">
+              <span class="service-number" aria-hidden="true">01</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M3 21h18M6 21V7l6-4 6 4v14M9 21v-6h6v6"/></svg></div>
+              <h3 class="service-title" id="srv-1-title">Derecho Empresarial</h3>
+              <p class="service-desc">Asesoría societaria y soporte jurídico para decisiones estratégicas de gobierno corporativo y estructuración empresarial.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Estructuración societaria y M&amp;A</li><li>Contratos estratégicos y negociación</li><li>Gobierno corporativo y compliance normativo</li><li>Soporte jurídico a directorio y gerencia</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Derecho Empresarial">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="service-card" aria-labelledby="srv-2-title">
+              <span class="service-number" aria-hidden="true">02</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M12 3v18M5 8l7-5 7 5M3 21h18M7 12h10M5 17h14"/></svg></div>
+              <h3 class="service-title" id="srv-2-title">Derecho Laboral</h3>
+              <p class="service-desc">Prevención de conflictos laborales, gestión de inspecciones SUNAFIL y defensa en litigios individuales y colectivos.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Defensa en inspecciones SUNAFIL</li><li>Desvinculaciones y restructuring</li><li>Litigios laborales individuales/colectivos</li><li>Auditoría laboral preventiva</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Derecho Laboral">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="service-card" aria-labelledby="srv-3-title">
+              <span class="service-number" aria-hidden="true">03</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M12 2L3 7v6c0 5 4 9 9 10 5-1 9-5 9-10V7L12 2z M9 12l2 2 4-4"/></svg></div>
+              <h3 class="service-title" id="srv-3-title">Asesoría Legal-Tributaria</h3>
+              <p class="service-desc">Análisis integrado de impactos fiscales y legales para reducir exposición ante SUNAT y detectar oportunidades de ahorro legítimas.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Planeamiento tributario estratégico</li><li>Defensa ante SUNAT y Tribunal Fiscal</li><li>Revisión de impactos fiscales en operaciones</li><li>Recuperación de crédito fiscal IGV</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Asesoría Legal-Tributaria">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="service-card" aria-labelledby="srv-4-title">
+              <span class="service-number" aria-hidden="true">04</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M9 12l2 2 4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+              <h3 class="service-title" id="srv-4-title">Compliance Corporativo</h3>
+              <p class="service-desc">Diseño e implementación de programas de cumplimiento normativo bajo Ley 30424 y estándares internacionales anti-corrupción.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Programa de Cumplimiento Ley 30424</li><li>Políticas de prevención de lavado de activos</li><li>Canal de denuncias y due diligence</li><li>Auditoría de riesgos regulatorios</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Compliance Corporativo">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="service-card" aria-labelledby="srv-5-title">
+              <span class="service-number" aria-hidden="true">05</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M6 4v8l6 4 6-4V4M6 4l6 4 6-4M4 20h16"/></svg></div>
+              <h3 class="service-title" id="srv-5-title">Derecho Penal-Económico</h3>
+              <p class="service-desc">Defensa técnica en delitos empresariales, tributarios y económicos. Asesoría preventiva para ejecutivos y directivos.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Defensa en delitos tributarios y aduaneros</li><li>Lavado de activos y crimen organizado empresarial</li><li>Defensa de ejecutivos en investigaciones fiscales</li><li>Riesgo penal en operaciones corporativas</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Derecho Penal-Económico">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="service-card" aria-labelledby="srv-6-title">
+              <span class="service-number" aria-hidden="true">06</span>
+              <div class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M3 3v18h18M7 16v-4M11 16V8M15 16v-6M19 16v-9"/></svg></div>
+              <h3 class="service-title" id="srv-6-title">Contabilidad Externa</h3>
+              <p class="service-desc">Gestión contable profesional con enfoque de control gerencial para decisiones más rápidas, auditables y defensibles.</p>
+              <ul class="service-list" aria-label="Incluye"><li>Reportes gerenciales mensuales</li><li>Orden documental y trazabilidad</li><li>Soporte en auditorías externas</li><li>Declaraciones y obligaciones SUNAT</li></ul>
+              <a href="#contacto" class="service-link" aria-label="Contactar sobre Contabilidad Externa">Solicitar diagnóstico <span aria-hidden="true">→</span></a>
+            </article>
           </div>
         </div>
       </section>
 
       <section id="impacto">
         <div class="container">
-          <p class="section-kicker">Prueba social</p>
-          <h2 class="section-title">Resultados que sostienen decisiones de alto impacto</h2>
-          <div class="impact-metrics">
-            <div><strong class="stat-number" data-target="98" data-suffix="%">0%</strong><span>renovación de clientes corporativos</span></div>
-            <div><strong class="stat-number" data-target="24" data-suffix="h">0h</strong><span>respuesta inicial en casos críticos</span></div>
-            <div><strong class="stat-number" data-target="320" data-suffix="+">0+</strong><span>procesos de compliance implementados</span></div>
-          </div>
-          <div class="testimonials">
-            <article class="quote-card"><p>"Nos dieron control legal y tributario real para negociar mejor con bancos y proveedores."</p><span>Director, empresa industrial</span></article>
-            <article class="quote-card"><p>"La estrategia laboral preventiva redujo conflictos y exposición regulatoria en menos de un trimestre."</p><span>Gerente General, empresa logística</span></article>
-            <article class="quote-card"><p>"Pasamos de reacción a anticipación: hoy el directorio decide con evidencia jurídica y financiera."</p><span>CFO, empresa de servicios</span></article>
-          </div>
-        </div>
-      </section>
-
-      <section id="valor" class="section-dark">
-        <div class="container value-grid">
-          <div>
-            <p class="section-kicker">Propuesta de valor</p>
-            <h2 class="section-title">Una firma boutique con visión integral de negocio</h2>
-            <p>Combinamos asesoría legal, tributaria y contable en una sola arquitectura de decisión para que su empresa opere con menor exposición y mayor velocidad ejecutiva. Nuestro enfoque no se limita al cumplimiento; diseñamos estructuras de prevención y respuesta que protegen caja, reputación y continuidad operativa.</p>
-          </div>
-          <div class="value-points">
-            <article><h3>Estrategia transversal</h3><p>Integramos frentes societarios, laborales y fiscales para evitar contradicciones entre áreas.</p></article>
-            <article><h3>Rigor técnico</h3><p>Equipo especializado en normativas peruanas, fiscalización y defensa en escenarios complejos.</p></article>
-            <article><h3>Ejecución cercana</h3><p>Acompañamiento continuo a gerencia y directorio con reportes claros y decisiones accionables.</p></article>
+          <p class="section-kicker">Impacto</p>
+          <h2 class="section-title">Resultados que respaldan decisiones de directorio</h2>
+          <div class="impact-grid">
+            <article class="impact-card"><h3>Reducción de contingencias</h3><p>Diseñamos defensas preventivas que reducen exposición en inspecciones y litigios de alto costo.</p></article>
+            <article class="impact-card"><h3>Protección reputacional</h3><p>Protocolos de cumplimiento y gestión de crisis para preservar marca, licencia social y confianza del mercado.</p></article>
+            <article class="impact-card"><h3>Velocidad de decisión</h3><p>Información legal traducida a métricas ejecutivas para actuar con claridad en escenarios complejos.</p></article>
           </div>
         </div>
       </section>
@@ -174,36 +196,81 @@
 
       <section id="equipo">
         <div class="container">
-          <p class="section-kicker">Equipo</p>
-          <h2 class="section-title">Profesionales con perspectiva estratégica</h2>
-          <p class="team-intro">Una firma premium exige criterio técnico y comprensión real del negocio. Conozca al equipo que acompaña sus decisiones.</p>
+          <span class="section-label">El equipo</span>
+          <h2 id="equipo-title" class="section-title">Profesionales con perspectiva estratégica</h2>
+          <p class="section-subtitle">Abogados y asesores especializados con experiencia real en defensa empresarial, inspecciones regulatorias y planeamiento legal-tributario en el mercado peruano.</p>
           <div class="team-grid">
-            <article><div class="avatar"></div><h3>Socia Principal</h3><p>Derecho Empresarial · 14 años</p></article>
-            <article><div class="avatar"></div><h3>Asociado Senior</h3><p>Laboral y Compliance · 10 años</p></article>
-            <article><div class="avatar"></div><h3>Consultora Tributaria</h3><p>Defensa fiscal · 9 años</p></article>
+            <article class="team-card" aria-labelledby="socio-jose">
+              <div class="team-photo">
+                <img src="./assets/team/jose-mauricio.jpg" alt="José Mauricio B., socio fundador de Summit Legal Advisors" width="280" height="280" onerror="this.style.display='none'" />
+                <div class="team-photo-fallback" aria-hidden="true">JM</div>
+              </div>
+              <div class="team-info">
+                <h3 class="team-name" id="socio-jose">José Mauricio B.</h3>
+                <p class="team-role">Socio fundador — Derecho Laboral y Corporativo</p>
+                <p class="team-specialties">Defensa SUNAFIL · Derecho penal empresarial · Asesoría legal-tributaria · Compliance</p>
+                <p class="team-formation">Maestría en Derecho de la Empresa con mención en Gestión Empresarial por la PUCP (en curso) · Abogado USIL Titulado con mención sobresaliente</p>
+                <a href="https://www.linkedin.com/in/jose-mauriciob/" class="team-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de José Mauricio">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  LinkedIn
+                </a>
+              </div>
+            </article>
+            <article class="team-card" aria-labelledby="socio-giorgio">
+              <div class="team-photo">
+                <img src="./assets/team/giorgio-boitano.jpg" alt="Giorgio Boitano, socio de Summit Legal Advisors" width="280" height="280" onerror="this.style.display='none'" />
+                <div class="team-photo-fallback" aria-hidden="true">GB</div>
+              </div>
+              <div class="team-info">
+                <h3 class="team-name" id="socio-giorgio">Giorgio Boitano</h3>
+                <p class="team-role">Socio — Derecho Laboral</p>
+                <p class="team-specialties">Derecho Procesal Laboral · Prevención de riesgos legales · Asesoría legal · Compliance Laboral</p>
+                <a href="https://www.linkedin.com/in/giorgioboitano/" class="team-linkedin" target="_blank" rel="noopener noreferrer" aria-label="Ver perfil de LinkedIn de Giorgio Boitano">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                  LinkedIn
+                </a>
+              </div>
+            </article>
           </div>
-          <a class="btn-secondary" href="#contacto">Conocer el equipo completo</a>
+          <!--
+            FOTOS: Guardar archivos en:
+            - /assets/team/jose-mauricio.jpg
+            - /assets/team/giorgio-boitano.jpg
+            Dimensiones recomendadas: 560x560px, formato JPG/WebP.
+          -->
         </div>
       </section>
 
-      <section id="contacto" class="section-dark">
-        <div class="container contact-grid">
-          <div>
-            <p class="section-kicker">Contacto</p>
-            <h2 class="section-title">Converse con un equipo que entiende riesgos empresariales</h2>
-            <p>Comparta su caso y recibirá una evaluación inicial para priorizar acciones críticas de protección legal y continuidad operativa.</p>
+      <section id="contacto" class="section-dark" aria-labelledby="contacto-title">
+        <div class="container contacto-grid">
+          <div class="contacto-info">
+            <span class="section-label">Contacto</span>
+            <h2 id="contacto-title" class="section-title">Conversemos sobre cómo proteger su empresa</h2>
+            <p class="contacto-desc">Agenda una evaluación inicial de 30 minutos para identificar los frentes críticos de su operación.</p>
+            <a href="https://calendar.app.google/KAhHE9n26Adyb4Sz5" class="btn-secondary" target="_blank" rel="noopener">Reservar reunión por calendario →</a>
+            <address class="contacto-datos">
+              <a href="mailto:contacto@summitlegaladvisors.com">contacto@summitlegaladvisors.com</a>
+              <span>Lima, Perú</span>
+            </address>
           </div>
-          <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-            <input type="text" name="nombre" placeholder="Nombre" required />
-            <input type="text" name="empresa" placeholder="Empresa" required />
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="tel" name="telefono" placeholder="Teléfono" required />
-            <select name="area" required>
-              <option value="">Área de interés</option>
-              <option>Derecho Empresarial</option><option>Derecho Laboral</option><option>Legal-Tributario</option><option>Compliance</option><option>Penal-Económico</option><option>Contabilidad Externa</option>
-            </select>
-            <textarea name="mensaje" placeholder="Mensaje" rows="4" required></textarea>
-            <button class="btn-primary" type="submit">Enviar consulta</button>
+          <form id="contact-form" action="https://formspree.io/f/mkoqqnly" method="POST" novalidate aria-label="Formulario de contacto">
+            <input type="hidden" name="_subject" value="Nueva consulta — Summit Legal Advisors" />
+            <div class="form-row">
+              <div class="form-group"><label for="nombre">Nombre completo *</label><input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Juan García" /><span class="field-error" role="alert"></span></div>
+              <div class="form-group"><label for="empresa">Empresa *</label><input type="text" id="empresa" name="empresa" required autocomplete="organization" placeholder="Empresa S.A.C." /><span class="field-error" role="alert"></span></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label for="email">Correo corporativo *</label><input type="email" id="email" name="email" required autocomplete="email" placeholder="gerencia@empresa.com" /><span class="field-error" role="alert"></span></div>
+              <div class="form-group"><label for="telefono">Teléfono / WhatsApp *</label><input type="tel" id="telefono" name="telefono" required autocomplete="tel" placeholder="+51 999 000 000" /><span class="field-error" role="alert"></span></div>
+            </div>
+            <div class="form-row">
+              <div class="form-group"><label for="area">Área de interés *</label><select id="area" name="area" required><option value="" disabled selected>Seleccione una práctica</option><option value="empresarial">Derecho Empresarial</option><option value="laboral">Derecho Laboral</option><option value="tributario">Asesoría Legal-Tributaria</option><option value="compliance">Compliance Corporativo</option><option value="penal">Derecho Penal-Económico</option><option value="contabilidad">Contabilidad Externa</option><option value="orientacion">No sé / Necesito orientación</option></select><span class="field-error" role="alert"></span></div>
+              <div class="form-group"><label for="tamano">Tamaño de empresa</label><select id="tamano" name="tamano"><option value="" disabled selected>Número de colaboradores</option><option value="1-10">1 – 10 colaboradores</option><option value="11-50">11 – 50 colaboradores</option><option value="51-200">51 – 200 colaboradores</option><option value="200+">Más de 200 colaboradores</option></select></div>
+            </div>
+            <div class="form-group"><label for="mensaje">Cuéntenos brevemente su situación *</label><textarea id="mensaje" name="mensaje" required rows="4" maxlength="1000" placeholder="Ej: Tenemos una inspección de SUNAFIL programada y necesitamos evaluar nuestra exposición..."></textarea><span class="field-error" role="alert"></span></div>
+            <div class="form-group"><label for="como_llego">¿Cómo nos encontró?</label><select id="como_llego" name="como_llego"><option value="" disabled selected>Opcional</option><option value="google">Búsqueda en Google</option><option value="linkedin">LinkedIn</option><option value="referido">Referido / Recomendación</option><option value="otro">Otro</option></select></div>
+            <button type="submit" class="btn-primary btn-submit" id="submit-btn">Enviar consulta</button>
+            <div id="form-toast" role="status" aria-live="polite" hidden></div>
           </form>
         </div>
       </section>
@@ -211,22 +278,34 @@
 
     <footer>
       <div class="container footer-grid">
-        <div><img src="./assets/logo.svg" alt="Summit Legal Advisors" width="180" height="46" /><p>Boutique legal premium para decisiones empresariales de alto impacto.</p></div>
+        <div><img src="./assets/logo.png" alt="Summit Legal Advisors" width="180" height="auto" /><p>Boutique legal premium para decisiones empresariales de alto impacto.</p></div>
         <div><h4>Servicios</h4><a href="#servicios">Derecho Empresarial</a><a href="#servicios">Laboral</a><a href="#servicios">Tributario</a></div>
         <div><h4>Recursos</h4><a href="#metodologia">Metodología</a><a href="#impacto">Impacto</a><a href="#equipo">Equipo</a></div>
         <div><h4>Contacto</h4><a href="mailto:contacto@summitlegaladvisors.com">contacto@summitlegaladvisors.com</a><a href="tel:+51964199064">+51 964 199 064</a><span>Lima, Perú</span></div>
       </div>
-      <div class="container footer-bottom"><span>© <span id="year"></span> Summit Legal Advisors</span><div><a href="#">Privacidad</a><a href="#">Términos</a></div></div>
+      <div class="container footer-bottom">
+        <span>© <span id="year"></span> Summit Legal Advisors</span>
+        <div>
+          <a href="#" onclick="openLegalModal('privacidad');return false">Política de privacidad</a>
+          <a href="#" onclick="openLegalModal('terminos');return false">Términos y condiciones</a>
+          <a href="#" onclick="openLegalModal('cookies');return false">Política de cookies</a>
+        </div>
+      </div>
     </footer>
 
-    <a class="whatsapp-fab" href="https://wa.me/51964199064?text=Hola, me interesa una evaluación ejecutiva para mi empresa" target="_blank" rel="noopener noreferrer" aria-label="Escribir por WhatsApp">
-      <svg width="28" height="28" viewBox="0 0 32 32" fill="none"><path d="M16 5c-6.1 0-11 4.8-11 10.7 0 1.9.5 3.8 1.5 5.5L5 27l6-1.6c1.6.9 3.4 1.3 5.2 1.3 6.1 0 11-4.8 11-10.7S22.1 5 16 5Zm.1 18.5c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3.6.9 1-3.4-.2-.4c-.9-1.3-1.3-2.8-1.3-4.3 0-4.7 3.9-8.6 8.8-8.6s8.8 3.9 8.8 8.6-3.9 8.6-8.7 8.6Zm4.8-6.4c-.3-.1-1.9-.9-2.2-1-.3-.1-.5-.1-.7.1-.2.2-.8 1-.9 1.1-.2.2-.3.2-.6.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.9-1.8.1-.2.1-.4 0-.6-.1-.1-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.5 0 1.4 1 2.8 1.2 3 .1.2 2.1 3.2 5.1 4.5 1.9.8 2.6.8 3.5.7.6-.1 1.9-.8 2.2-1.6.3-.8.3-1.4.2-1.6-.1-.2-.3-.2-.6-.3Z" fill="#fff"/></svg>
-      <span class="wa-tooltip">Escribir por WhatsApp</span>
+    <div id="legal-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" fill="none" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+        <h2 id="modal-title" class="modal-title"></h2>
+        <div id="modal-body" class="modal-body"></div>
+      </div>
+    </div>
+
+    <a href="https://wa.me/51964199064?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20servicios%20de%20Summit%20Legal%20Advisors" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+      <svg viewBox="0 0 24 24" width="28" height="28" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
     </a>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-    <script src="./animations.js" defer></script>
     <script src="./main.js" defer></script>
   </body>
 </html>
