@@ -88,3 +88,16 @@ if (revealElements.length) {
 
 const yearElement = document.getElementById('year');
 if (yearElement) yearElement.textContent = String(new Date().getFullYear());
+
+const heroBackground = document.querySelector('.hero-bg');
+if (heroBackground && !reducedMotion) {
+  window.addEventListener(
+    'pointermove',
+    (event) => {
+      const x = (event.clientX / window.innerWidth - 0.5) * 10;
+      const y = (event.clientY / window.innerHeight - 0.5) * 10;
+      heroBackground.style.transform = `translate(${x}px, ${y}px)`;
+    },
+    { passive: true },
+  );
+}
