@@ -468,6 +468,7 @@ h1 {
   }
 }
 
+
 @media (prefers-reduced-motion: reduce) {
   * {
     transition-duration: 0ms !important;
