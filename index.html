@@ -48,7 +48,7 @@
       <div class="header-shell">
         <nav class="container nav" aria-label="Navegación principal">
           <a class="brand" href="#inicio" aria-label="Ir al inicio">
-            <img class="brand-logo" src="https://drive.google.com/thumbnail?id=1cX_XNwppBD4Xdhfdks98ytrS9syQgmip&sz=w400" alt="Summit Legal Advisors" width="36" height="45" />
+            <img class="brand-logo" src="assets/logo-mark.svg" alt="Summit Legal Advisors" width="32" height="40" />
             <span class="brand-name">Summit <span>Legal Advisors</span></span>
           </a>
 
@@ -89,7 +89,9 @@
           </div>
 
           <aside class="hero-panel" aria-label="Propuesta de valor Summit">
-            <img src="https://drive.google.com/thumbnail?id=1ZO0QifQfrQ-tqMgtu0LmLUr6gzTNUFjQ&sz=w1200" alt="Logo Summit Legal Advisors" width="240" height="171" loading="eager" />
+            <div class="hero-logo-frame">
+              <img src="assets/logo-summit.svg" alt="Logo Summit Legal Advisors" width="300" height="214" loading="eager" />
+            </div>
             <h2>Un solo aliado para frentes críticos</h2>
             <ul>
               <li>Estructuración y revisión de decisiones corporativas.</li>
@@ -200,10 +202,27 @@
 
     <footer class="site-footer">
       <div class="container footer-shell">
-        <p>© <span id="year"></span> Summit Legal Advisors Perú. Todos los derechos reservados.</p>
+        <div class="footer-left">
+          <p>© <span id="year"></span> Summit Legal Advisors Perú. Todos los derechos reservados.</p>
+          <ul class="legal-links" aria-label="Enlaces legales">
+            <li><button type="button" class="legal-trigger" data-legal="privacidad">Política de privacidad</button></li>
+            <li><button type="button" class="legal-trigger" data-legal="terminos">Términos y condiciones</button></li>
+            <li><button type="button" class="legal-trigger" data-legal="cookies">Política de cookies</button></li>
+          </ul>
+        </div>
         <a href="mailto:contacto@summitlegaladvisors.com">contacto@summitlegaladvisors.com</a>
       </div>
     </footer>
+
+    <div class="legal-modal" id="legalModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="legalTitle">
+      <div class="legal-modal__backdrop" data-close-legal></div>
+      <article class="legal-modal__card">
+        <button class="legal-modal__close" type="button" aria-label="Cerrar" data-close-legal>×</button>
+        <p class="eyebrow">Información legal</p>
+        <h3 id="legalTitle">Política de privacidad</h3>
+        <p id="legalBody">Tratamos los datos que nos compartes únicamente para fines de contacto profesional, diagnóstico inicial y eventual prestación de servicios. No comercializamos información personal y aplicamos medidas razonables de seguridad.</p>
+      </article>
+    </div>
 
     <script src="script.js" defer></script>
   </body>
