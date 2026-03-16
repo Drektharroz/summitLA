@@ -120,6 +120,7 @@ body {
   border-radius: 6px;
   background: rgba(255,255,255,0.03);
 }
+.brand-logo { flex-shrink: 0; }
 
 .brand-name {
   font-family: var(--font-serif);
@@ -441,6 +442,7 @@ h1 {
   flex-wrap: wrap;
   gap: 0.8rem;
 }
+.method-list p { margin: 0.24rem 0 0; color: var(--ink-soft); }
 
 .footer-left {
   display: grid;
@@ -465,6 +467,7 @@ h1 {
   font-size: 0.78rem;
   cursor: pointer;
 }
+.contact-wrap p { color: #c6cfda; }
 
 .legal-trigger:hover,
 .legal-trigger:focus-visible {
@@ -514,6 +517,7 @@ h1 {
   font-family: var(--font-serif);
   font-size: 1.7rem;
 }
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
 
 .legal-modal__card p {
   margin: 0;
