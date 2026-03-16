@@ -11,6 +11,7 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
 
   function animateCounter(el) {
     const target = parseInt(el.dataset.target);
+    const prefix = el.dataset.prefix || "";
     const suffix = el.dataset.suffix || "";
     gsap.fromTo(
       { val: 0 },
@@ -19,14 +20,14 @@ if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         duration: 2,
         ease: "power2.out",
         onUpdate: function () {
-          el.textContent = Math.round(this.targets()[0].val) + suffix;
+          el.textContent = prefix + Math.round(this.targets()[0].val) + suffix;
         },
       }
     );
   }
 
   ScrollTrigger.create({
-    trigger: "#impacto",
+    trigger: "#impacto-numerico",
     onEnter: () => document.querySelectorAll(".stat-number").forEach(animateCounter),
     once: true,
   });
