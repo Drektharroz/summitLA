@@ -1,0 +1,664 @@
+                                                            ANEXO I
+                      DOCUMENTO INFORMATIVO SOBRE EL PROCEDIMIENTO PARA LA CELEBRACIÓN DE LA ASAMBLEA
+                      GENERAL EXTRAORDINARIA NO PRESENCIAL DE TITULARES DE CERTIFICADOS DE PARTICIPACIÓN
+                      (FIDEICOMISARIOS) DEL “PRIMER PROGRAMA DE EMISIÓN DE CERTIFICADOS DE PARTICIPACIÓN
+                                                         FIBRA PRIME”
+
+                 El presente documento contiene el procedimiento para la celebración de la Asamblea General
+                 Extraordinaria No Presencial de titulares de certificados de participación del “Primer Programa de Emisión
+                 de Certificados de Participación FIBRA Prime” (“FIBRA Prime”), convocada para el día 20 de octubre de
+                 2025 a las 9:00 horas, en primera convocatoria; y para el día 24 de octubre de 2025 a las 9:00 horas, en
+                 segunda convocatoria (la “Asamblea General Extraordinaria No Presencial”). Asimismo, en este
+                 documento se detalla el mecanismo para que los titulares de los certificados de participación de FIBRA
+                 Prime (los “Titulares”) puedan acceder a la Asamblea General Extraordinaria No Presencial y ejercer
+                 efectivamente su derecho de participación y de voto a través de los medios tecnológicos que serán
+                 utilizados.
+
+                 La Asamblea General Extraordinaria No Presencial se celebrará de conformidad con lo establecido en las
+                 “Normas para las convocatorias y celebraciones de asambleas de fideicomisarios, asambleas de partícipes,
+                 comités y otros órganos colegiados de las sociedades a las que la SMV otorga autorización de
+                 funcionamiento”, aprobadas por Resolución de Superintendente No. 052-2020-SMV/02.
+
+                 1. Medio que se utilizará para celebrar la Asamblea General Extraordinaria No Presencial
+
+                 La Asamblea General Extraordinaria se celebrará de forma “No Presencial” a través de la plataforma
+                 Microsoft Teams (“Teams”), la que permite emplear chat, audio, imagen y video de manera simultánea.
+                 Dicha plataforma permitirá, además, el ejercicio del derecho de voto de los Titulares bien sea en forma
+                 directa o por intermedio de sus representantes.
+
+                 La plataforma Teams es una solución segura y totalmente virtualizada, que funciona vía Internet. Combina
+                 las conferencias de audio y web en una sola solución. Esta plataforma opera transmitiendo sonido e
+                 imágenes, por lo que es necesario contar con una computadora o teléfono celular Smartphone con
+                 conexión a internet, con cámara y micrófono operativos, para la transmisión de sonido e imagen.
+
+                 En el Anexo G del presente documento se detalla el procedimiento para descargar, instalar y utilizar la
+                 plataforma Teams, desagregando el detalle en caso se acceda desde una computadora (ver página 13) o
+                 desde un teléfono móvil, ya sea celular Android o iPhone (ver página 14).
+
+                 2.     Precisiones sobre el desarrollo de la Asamblea General Extraordinaria No Presencial:
+
+                 2.1 ¿Cómo pueden acceder los Titulares a la información relativa a los asuntos a tratar?
+
+                 La información y documentación relativos a los asuntos a tratar se encuentran publicados como hecho de
+                 importancia, en la sección “Asamblea no presencial de Partícipes/Asamblea no presencial de
+                 Fideicomisarios” del Portal del Mercado de Valores de la SMV (www.smv.gob.pe) y en el enlace al Portal
+                 de la SMV publicado en nuestra página web (https://www.grupocoril.com/st/).
+
+                 2.2 ¿Cuál es el procedimiento para el ingreso o acceso de los Titulares a la Asamblea General
+                     Extraordinaria?
+
+                 Luego de la publicación de la convocatoria a la Asamblea General Extraordinaria No Presencial, y hasta las
+                 9:00 horas del día 17 de octubre de 2025 para el caso de la primera convocatoria, y hasta las 9:00 horas
+                 del día 23 de octubre de 2025 para el caso de la segunda convocatoria, los Titulares o su(s)
+                 representante(s) deberán:
+
+                       ●   Enviar un correo electrónico a factor.fiduciario@grupocoril.com, con copia a
+                           legalst@grupocoril.com, con el asunto “Dirección Electrónica”, adjuntando una Comunicación de
+                           Registro cuyo modelo sugerido aparece en el Anexo A (personas naturales) o en el Anexo B
+                           (personas jurídicas, fondos de inversión o patrimonios autónomos) según corresponda; y,
+
+
+Firmado Digitalmente por:
+PAOLA ALESSANDRA FRAGUELA
+HANDAL                                                              -1-
+Fecha: 09/10/2025 06:41:49 p.m.
+    ●   Copia de sus documentos de identidad; y, en caso de representantes, adicionalmente deberán
+        remitir el poder o los poderes que correspondan de quien suscriba la referida comunicación (se
+        adjunta el formato sugerido en el Anexo B).
+
+Seguidamente, y luego de validar esta información, Grupo Coril Sociedad Titulizadora S.A. (en adelante
+“Coril”) remitirá al correo electrónico a través de la dirección factor.fiduciario@grupocoril.com indicada
+en la mencionada comunicación, una invitación que contendrá una dirección web (link) mediante la cual,
+en la fecha y hora programada, el Titular o su representante podrá acceder y conectarse a la Asamblea
+General Extraordinaria No Presencial. Tener en cuenta dos consideraciones:
+
+    ●   La invitación enviada a la dirección de correo electrónico deberá ser aceptada por los Titulares o
+        su(s) representante(s) para que su ingreso a la Asamblea General Extraordinaria No Presencial
+        sea permitido.
+
+    ●   La sala estará abierta una hora antes de la hora fijada para la primera convocatoria y, de ser el
+        caso, para la segunda convocatoria de la Asamblea General Extraordinaria No Presencial para
+        que los Titulares puedan registrarse.
+
+2.3 Designación de representante del Titular con posterioridad al Registro
+
+En caso de que, luego de realizado el procedimiento detallado en el punto 2.2., el Titular decida hacerse
+representar por un tercero en la Asamblea General Extraordinaria No Presencial, deberá tener en cuenta
+lo siguiente:
+
+    ●   Haberse registrado siguiendo el procedimiento indicado en el punto 2.2 precedente.
+
+    ●   Los Titulares deberán remitir al correo electrónico factor.fiduciario@grupocoril.com, con copia
+        a legalst@grupocoril.com, con el asunto “Representante”, hasta las 9:00 horas del día 17 de
+        octubre de 2025 para el caso de la primera convocatoria, y hasta las 9:00 horas del día 23 de
+        octubre de 2025 para el caso de la segunda convocatoria, una carta poder simple debidamente
+        completada y firmada. Un formato referencial de carta poder simple se incluye en el Anexo C
+        (personas naturales) o en el Anexo D (personas jurídicas, fondos de inversión o patrimonios
+        autónomos), según corresponda;
+
+    ●   Los Titulares deberán adjuntar a dicha carta poder la copia del DNI del Titular y, en caso de
+        personas jurídicas, adicionalmente el poder de quien suscriba la referida carta poder conforme
+        al Anexo D.
+
+    ●   Coril podrá requerir al representante elegido la imagen de su documento de identidad.
+
+    ●   En caso la delegación sea permanente, se deberá remitir la escritura pública del poder.
+
+    ●   Una vez remitida la comunicación antes mencionada, Coril remitirá al representante registrado,
+        al correo electrónico señalado, el link de la plataforma Teams conforme a lo señalado en el
+        numeral 2.2.
+
+    ●   En caso de designarse representantes, será responsabilidad de cada uno de los Titulares verificar
+        que estos han tomado conocimiento de los alcances del presente documento, a fin de que
+        puedan participar en la Asamblea General Extraordinaria No Presencial y ejercer el voto de
+        manera correcta.
+
+2.4 ¿Qué deben hacer los Titulares o representantes el día de la Asamblea General Extraordinaria No
+    Presencial?
+
+    ●   El acceso a la Asamblea General Extraordinaria No Presencial a través de la plataforma Teams
+        estará disponible desde una hora antes de la hora fijada para la primera convocatoria y, de ser el
+        caso, en segunda convocatoria, con el fin de acreditar la participación y verificar la identidad de
+        los Titulares o sus representantes. Para tal efecto, el Titular o representante deberá exhibir,
+        cuando le sea requerido, su imagen en vivo, así como su documento de identidad.
+
+                                                   -2-
+    ●    La sola participación en la Asamblea General Extraordinaria No Presencial constituye una
+         autorización por parte del Titular o del representante a ser fotografiado y grabado, en voz,
+         imagen y escritura (chat) a través de la plataforma Teams o por cualquier otro medio posible,
+         con la única finalidad de verificar su identidad y dejar constancia de sus intervenciones. La
+         negativa a pasar por este proceso de identificación invalidará la participación del Titular o
+         representante al efecto de la celebración de la Asamblea General Extraordinaria No Presencial.
+
+    ●    El mecanismo de registro de participación/asistencia de los Titulares o de los representantes será
+         a través de la plataforma Teams, que grabará todo lo que se transmitirá a través de ella (imagen,
+         sonido y el contenido del chat) durante el desarrollo de la Asamblea General Extraordinaria No
+         Presencial.
+
+    ●    En base a dicha grabación se obtendrá la lista de asistencia a la Asamblea General Extraordinaria
+         No Presencial, que permitirá determinar el quórum requerido para la celebración de la Asamblea
+         General Extraordinaria No Presencial a la hora indicada en el aviso de convocatoria para la
+         realización de la Asamblea General Extraordinaria No Presencial. Una vez comprobado que se
+         cuenta con el quorum requerido, el Presidente declarará instalada la Asamblea General
+         Extraordinaria No Presencial.
+
+    ●    La Asamblea General Extraordinaria No Presencial, incluyendo las exposiciones, intervenciones y
+         comentarios, será grabada, de acuerdo con lo establecido en las Normas.
+
+    ●    En caso algún Titular o representante tenga alguna consulta, podrá realizarla de manera verbal -
+         haciendo “click” en el botón de “levantar la mano”- o utilizando el chat de la plataforma. Quien
+         actúe como Secretario en la Asamblea General Extraordinaria No Presencial, tomará nota de las
+         consultas que se realicen mediante el chat y las trasladará a quien corresponda para su
+         absolución.
+
+2.5 ¿Cómo se ejerce el derecho de voto en la Asamblea?
+
+El derecho de voto en la Asamblea General Extraordinaria No Presencial se ejerce de la siguiente manera:
+
+-   Una vez terminada la exposición de un punto de agenda, se dará paso a preguntas de los Titulares o
+    representantes e intercambio de opiniones, luego de lo cual se procederá a emitir el voto respectivo.
+
+-   Para ello en el Chat, quien actúe como secretario en la Asamblea General Extraordinaria No Presencial,
+    escribirá: “Inicio del proceso de votación del (número) punto tratado y desarrollado de la Agenda”.
+
+-   El Titular o representante emitirá, a través del chat de la plataforma Teams, el sentido del voto de
+    manera expresa. Asimismo, el Titular o representante podrá manifestar su voto de manera verbal,
+    para lo cual deberá previamente hacer “click” en el botón de “levantar la mano” según lo indicado en
+    el Anexo G. En ambos casos, el voto emitido quedará grabado como parte de la sesión en la plataforma
+    Teams. Una vez emitido el voto por audio, el Titular o representante deberá bajar la mano y darle
+    mute al micrófono.
+
+-   Culminado el proceso de votación, quien actúe como secretario en la Asamblea General Extraordinaria
+    No Presencial escribirá en el Chat: “Fin del proceso de votación del (número) punto tratado y
+    desarrollado de la Agenda”.
+
+2.6 Voto Anticipado
+
+    ●    En caso algún Titular no desee o no pueda asistir a la Asamblea General Extraordinaria No
+         Presencial, se ofrece la alternativa de emplear el voto anticipado, el cual se mantendrá en reserva
+         hasta el fin del proceso de votación de los Titulares o representantes presentes. Para ello, el
+         Titular deberá remitir un correo electrónico a factor.fiduciario@grupocoril.com, con copia a
+         legalst@grupocoril.com con el asunto “Voto Anticipado”, adjuntando la carta debidamente
+         completada y firmada según el formato que se adjunta como Anexo E (persona natural) o F
+
+
+                                                   -3-
+        (persona jurídica, fondos de inversión o patrimonios autónomos), según corresponda,
+        debidamente firmado.
+
+    ●   Los Titulares deberán remitir el formulario consignando la votación correspondiente junto con la
+        copia de su DNI (personas naturales) y, en caso de personas jurídicas, adicionalmente el poder
+        de quien suscriba el referido formulario conforme al Anexo F, hasta las 9:00 horas del día 17 de
+        octubre de 2025 para el caso de la primera convocatoria, y hasta las 9:00 horas del día 23 de
+        octubre de 2025 para el caso de la segunda convocatoria.
+
+    ●   El Titular que decida emplear el voto anticipado será considerado a efectos de determinar el
+        quórum para la instalación de la Asamblea General Extraordinaria No Presencial.
+
+    ●   Si por cualquier razón se reciben distintas votaciones anticipadas de un mismo Titular, se
+        considerará únicamente la última comunicación recibida siempre que esta haya sido remitida
+        hasta las 9:00 horas del día 17 de octubre de 2025 para el caso de la primera convocatoria, y
+        hasta las 9:00 horas del día 23 de octubre de 2025 para el caso de la segunda convocatoria.
+
+2.7 Medios implementados para dejar evidencia de la realización de la sesión de la Asamblea
+
+La asistencia y participación de los Titulares de Certificados, así como el registro de los votos quedará
+anotado, además de la grabación de la plataforma Teams (y cualquier otro medio que permita la referida
+plataforma Teams), en el acta de la Asamblea General Extraordinaria No Presencial.
+
+Adicionalmente, la Asamblea General Extraordinaria No Presencial será grabada y podrá contar con la
+presencia de un Notario Público que pueda dar fe de su instalación, desarrollo y los acuerdos adoptados.
+
+
+
+
+                                                  -4-
+                                                        Anexo A
+                                           Carta de Registro – Persona Natural
+
+Lima, ________ de ________ de 2025
+
+
+Señores
+GRUPO CORIL SOCIEDAD TITULIZADORA S.A.
+Av. El Derby No. 250, Piso No. 21,
+Urbanización El Derby de Monterrico
+Santiago de Surco. -
+Email: factor.fiduciario@grupocoril.com / legalst@grupocoril.com
+
+
+Ref.:     Asamblea General Extraordinaria No Presencial
+
+
+Por el presente documento, ....................................................................... , identificado(a) con Documento
+Nacional de Identidad Nro.                               o Carnet de Extranjería N° ............................ , en calidad de
+[alternativa 1: titular de certificados de participación correspondientes al “Primer Programa de Emisión
+de Certificados de Participación FIBRA Prime” (el “Programa”) emitidos con cargo al “Patrimonio en
+Fideicomiso – D. Leg. No. 861, Título XI – Fideicomiso de Titulización para Inversión en Renta de Bienes
+Raíces – FIBRA – PRIME” / alternativa 2: representante de                                                                           ,
+identificado(a) con Documento Nacional de Identidad Nro.                                                                 , titular de
+certificados de participación correspondientes al “Primer Programa de Emisión de Certificados de
+Participación FIBRA Prime” (el “Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg.
+No. 861, Título XI – Fideicomiso de Titulización para Inversión en Renta de Bienes Raíces – FIBRA –
+PRIME”], solicito que toda información relacionada con las asambleas generales extraordinarias no
+presenciales de titulares de certificados de participación (“Asamblea No Presencial”) del Programa sea
+comunicada a la siguiente dirección de correo electrónico:
+
+Dirección de Correo Electrónico:
+
+De otro lado, autorizo a que mi participación en las referidas asambleas generales no presenciales pueda
+ser fotografiada y grabada, en voz, imagen y escritura (Chat) a través de la plataforma Microsoft Teams o
+por cualquier otro medio posible.
+
+La presente comunicación es de carácter permanente y cualquier modificación a la información contenida
+en este documento será informada hasta las 9:00 horas del día 17 de octubre de 2025 para la primera
+convocatoria, y hasta las 9:00 horas del día 23 de octubre de 2025 para la segunda convocatoria de la
+Asamblea No Presencial.
+
+Se adjunta a la presente comunicación copia de mi documento de identidad en anverso y reverso.
+
+Atentamente,
+
+
+
+Firma:
+Nombres y Apellidos:
+DNI Nº
+
+
+
+
+                                                                -5-
+                                                  Anexo B
+                                    Carta de Registro – Persona Jurídica
+
+Lima, ________ de ________ de 2025
+
+
+Señores
+GRUPO CORIL SOCIEDAD TITULIZADORA S.A.
+Av. El Derby No. 250, Piso No. 21,
+Urbanización El Derby de Monterrico
+Santiago de Surco. -
+Email: factor.fiduciario@grupocoril.com / legalst@grupocoril.com
+
+
+Ref.:      Asamblea General No Presencial
+
+
+Por el presente documento, ……………………………………………………………………, identificado(a) con Registro
+Único de Contribuyente N° …………………………. y partida registral Nro.................... Del Registro de Personas
+Jurídicas de la Oficina Registral de …………., en calidad de titular de certificados de participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime” (el
+“Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg. No. 861, Título XI – Fideicomiso
+de Titulización para Inversión en Renta de Bienes raíces – FIBRA – PRIME”, solicitamos que toda
+información relacionada con las asambleas generales extraordinarias no presenciales de titulares de
+certificados de participación (“Asamblea No Presencial”) del Programa sea comunicada a la siguiente
+dirección de correo electrónico:
+
+Nombre y apellidos:
+Dirección electrónica:
+DOI:
+
+De otro lado, autorizamos a que nuestra participación durante las referidas asambleas no presenciales
+pueda ser fotografiada y grabado, en voz, imagen y escritura (Chat) a través de la plataforma Teams o por
+cualquier otro medio posible.
+
+La presente comunicación es de carácter permanente y cualquier modificación a la información contenida
+en este documento será informada hasta las 9:00 horas del día 17 de octubre de 2025 para la primera
+convocatoria, y hasta las 9:00 horas del día 23 de octubre de 2025 para el caso de la segunda convocatoria
+de la Asamblea No Presencial.
+
+Se acompaña a la presente comunicación los siguientes documentos:
+
+      ●    Imagen Anverso y Reverso del documento de identidad de los suscriptores de la presente
+           comunicación y de quien remite la misma vía correo electrónico, en caso corresponda1.
+
+      ●    Poderes de los suscriptores.
+
+Atentamente,
+
+
+    __________________________________                    __________________________________
+    Denominación Social:                                  Denominación Social:
+    RUC No.:                                              RUC No.:
+    Domicilio:                                            Domicilio:
+    Representante Legal / Apoderado 1:                    Representante Legal / Apoderado 2:
+    Doc. Identidad:                                       Doc. Identidad:
+
+
+1
+        Nota: En caso de que quien remita esta comunicación vía correo electrónico no sea uno de los firmantes, debe
+        adjuntar también copia de su DNI.
+                                                    -6-
+Poderes inscritos en la Partida Electrónica No.:         Poderes inscritos en la Partida Electrónica No.:
+
+
+
+
+                                                   -7-
+                                                     Anexo C
+                                          CARTA PODER – Personas Naturales
+
+
+Lima, ________ de ________ de 2025
+
+Señores
+GRUPO CORIL SOCIEDAD TITULIZADORA S.A.
+Av. El Derby No. 250, Piso No. 21,
+Urbanización El Derby de Monterrico
+Santiago de Surco. -
+Email: factor.fiduciario@grupocoril.com / legalst@grupocoril.com
+
+
+Ref.:      Asamblea General Extraordinaria No Presencial
+
+
+De mi especial consideración:
+
+Por el presente documento, ....................................................................... , identificado(a) con Documento
+Nacional de Identidad (“DNI”) N° ............................. En calidad de titular de certificados de participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime” (el
+“Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg. No. 861, Título XI – Fideicomiso
+de Titulización para Inversión en Renta de Bienes Raíces – FIBRA – PRIME”, otorgo poder y designo
+expresamente a                               , identificado con DNI N°                                      , y correo electrónico:
+                    para que, en mi nombre y representación:
+
+Participe con voz y voto en la Asamblea General Extraordinaria No Presencial de Titulares de Certificados
+de Participación correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA
+Prime”, convocada mediante aviso publicado como hecho de importancia a través del Portal del Mercado
+de Valores de la Superintendencia del Mercado de Valores y en el enlace al portal de la SMV publicado en
+la página web de Grupo Coril Sociedad Titulizadora S.A. el día 10 de octubre de 2025, así como también
+en el diario “Expreso” el día 10 de octubre de 2025, para celebrarse, en primera convocatoria, el día 20
+de octubre de 2025 a las 9:00 horas y, en segunda convocatoria, el día 24 de octubre de 2025 a las 9:00
+horas (la “Asamblea”); pudiendo ejercer el derecho de voto a su criterio.
+
+Por lo expuesto, el apoderado contará con las facultades necesarias para votar en todos los asuntos que
+sean tratados en la Asamblea.
+
+Este poder no podrá ser observado, tachado o ser declarado insuficiente. Por lo expuesto, agradeceré se
+sirvan dar las facilidades de caso.
+
+Acompañamos a la presente comunicación la imagen de mi documento de identidad en anverso y reverso.
+
+Atentamente,
+
+
+
+Firma:
+Nombres y Apellidos:
+DNI Nº
+
+                                                               -8-
+                                            ANEXO D
+                                  CARTA PODER – Personas Jurídicas
+
+De mi especial consideración:
+
+Por el presente documento, ……………………………………………………………………, identificado(a) con
+Registro Único de Contribuyente N° …………………………. y partida registral Nro ……….. del Registro de
+Personas Jurídicas de la Oficina Registral de ……….., en calidad de titular de certificados de
+participación correspondientes al “Primer Programa de Emisión de Certificados de Participación
+FIBRA Prime” (el “Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg. No. 861,
+Título XI – Fideicomiso de Titulización para Inversión en Renta de Bienes Raíces – FIBRA – PRIME”,
+otorgo poder y designo expresamente a ……………………………………………………………………, identificado
+con DNI N° ………..; para que, en nuestro nombre y representación:
+
+Participe con voz y voto en la Asamblea General Extraordinaria No Presencial de Titulares de
+Certificados de Participación correspondientes al “Primer Programa de Emisión de Certificados de
+Participación FIBRA Prime”, convocada mediante aviso publicado como hecho de importancia a través
+del Portal del Mercado de Valores de la Superintendencia del Mercado de Valores y en el enlace al
+portal de la SMV publicado en la página web de Grupo Coril Sociedad Titulizadora S.A. el día 10 de
+octubre de 2025, así como también en el diario “Expreso” el día 10 de octubre de 2025, para
+celebrarse, en primera convocatoria, el día 20 de octubre de 2025 a las 9:00 horas y, en segunda
+convocatoria, el día 24 de octubre de 2025 a las 9:00 horas (la “Asamblea”); pudiendo ejercer el
+derecho de voto a su criterio.
+
+Por lo expuesto, el apoderado contará con las facultades necesarias para votar en todos los asuntos
+que sean tratados en la Asamblea.
+
+Este poder no podrá ser observado, tachado o ser declarado insuficiente. Por lo expuesto, agradeceré
+se sirvan dar las facilidades de caso.
+
+Se acompaña a la presente comunicación los siguientes documentos
+
+   ●   Imagen anverso y reverso del documento de identidad de los suscriptores de la presente
+       comunicación.
+
+   ●   Poderes de los suscriptores con una vigencia no mayor a 30 días calendarios.
+
+
+
+
+Atentamente,
+
+
+
+
+__________________________________                       __________________________________
+Denominación Social:                                     Denominación Social:
+RUC No.:                                                 RUC No.:
+Domicilio:                                               Domicilio:
+Representante Legal / Apoderado 1:                       Representante Legal / Apoderado 2:
+Doc. Identidad:                                          Doc. Identidad:
+Poderes inscritos en la Partida Electrónica No.:         Poderes inscritos en la Partida Electrónica No.:
+
+
+
+
+                                                   -9-
+                                                   Anexo E
+                                    CARTA VOTO ANTICIPADO – Persona Natural
+
+Lima, ________ de ________ de 2025
+
+Señores
+GRUPO CORIL SOCIEDAD TITULIZADORA S.A.
+Av. El Derby No. 250, Piso No. 21,
+Urbanización El Derby de Monterrico
+Santiago de Surco. -
+Email: factor.fiduciario@grupocoril.com / legalst@grupocoril.com
+
+
+Ref.:     Asamblea General Extraordinaria No Presencial
+
+
+De mi especial consideración:
+
+Por el presente documento, ....................................................................... , identificado(a) con Documento
+Nacional de Identidad (“DNI”) N° ............................. en calidad de titular de certificados de participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime” (el
+“Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg. No. 861, Título XI – Fideicomiso
+de Titulización para Inversión en Renta de Bienes Raíces – FIBRA – PRIME”, hago llegar mi voto a la
+Asamblea General Extraordinaria No Presencial de Titulares de Certificados de Participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime”,
+convocada mediante aviso publicado como hecho de importancia a través del Portal del Mercado de
+Valores de la Superintendencia del Mercado de Valores (“SMV”) y en el enlace al portal de la SMV
+publicado en la página web de Grupo Coril Sociedad Titulizadora S.A. (el “Fiduciario”) el día 10 de octubre
+de 2025, así como también en el diario “Expreso” el día 10 de octubre de 2025, para celebrarse, en primera
+convocatoria, el día 20 de octubre de 2025 a las 9:00 horas y, en segunda convocatoria, el día 24 de
+octubre de 2025 a las 9:00 horas (la “Asamblea”):
+
+1.- Aprobar dispensar al señor Alfredo Eduardo Thorne Vetter del impedimento para ejercer el cargo de
+miembro del Comité Técnico establecido en el segundo párrafo de la Cláusula Décimo Novena del Acto
+Constitutivo y, consiguientemente, ratificar su designación como miembro del Comité Técnico.
+
+Mi voto es
+
+          A favor:
+          En contra:
+          Abstención:
+
+
+En caso no se marque ninguna de las alternativas para el punto de agenda, no se considerará la
+participación del titular de certificados de participación para el cómputo del quorum ni mayorías de la
+Asamblea.
+
+Acompañamos a la presente comunicación la imagen de mi documento de identidad en anverso y reverso.
+
+Atentamente,
+
+Firma:
+Nombres y Apellidos:
+DNI Nº
+
+
+
+
+                                                              -10-
+                                              ANEXO F
+                                CARTA VOTO ANTICIPADO – Persona Jurídica
+
+
+Lima, ________ de ________ de 2025
+
+Señores
+GRUPO CORIL SOCIEDAD TITULIZADORA S.A.
+Av. El Derby No. 250, Piso No. 21,
+Urbanización El Derby de Monterrico
+Santiago de Surco. -
+Email: factor.fiduciario@grupocoril.com / legalst@grupocoril.com
+
+
+Ref.:    Asamblea General Extraordinaria No Presencial
+
+
+De mi especial consideración:
+
+Por el presente documento, ……………………………………………………………………, identificado(a) con Registro
+Único de Contribuyente N° …………………………. y partida registral Nro ................... del Registro de Personas
+Jurídicas de la Oficina Registral de ……….., en calidad de titular de certificados de participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime” (el
+“Programa”) emitidos con cargo al “Patrimonio en Fideicomiso – D. Leg. No. 861, Título XI – Fideicomiso
+de Titulización para Inversión en Renta de Bienes Raíces – FIBRA – PRIME”, hacemos llegar nuestro voto a
+la Asamblea General Extraordinaria No Presencial de Titulares de certificados de participación
+correspondientes al “Primer Programa de Emisión de Certificados de Participación FIBRA Prime”,
+convocada mediante aviso publicado como hecho de importancia a través del Portal del Mercado de
+Valores de la Superintendencia del Mercado de Valores (“SMV”) y en el enlace al portal de la SMV
+publicado en la página web de Grupo Coril Sociedad Titulizadora S.A. (el “Fiduciario”) el día 10 de octubre
+de 2025, así como también en el diario “Expreso” el día 10 de octubre de 2025, para celebrarse, en primera
+convocatoria, el día 20 de octubre de 2025 a las 9:00 horas y, en segunda convocatoria, el día 24 de
+octubre de 2025 a las 9:00 horas (la “Asamblea”):
+
+1.- Aprobar dispensar al señor Alfredo Eduardo Thorne Vetter del impedimento para ejercer el cargo de
+miembro del Comité Técnico establecido en el segundo párrafo de la Cláusula Décimo Novena del Acto
+Constitutivo y, consiguientemente, ratificar su designación como miembro del Comité Técnico.
+
+Mi voto es
+
+        A favor:
+        En contra:
+        Abstención:
+
+
+En caso no se marque ninguna de las alternativas para cada punto de agenda, no se considerará la
+participación del titular de certificados de participación para el cómputo del quorum ni mayorías de la
+Asamblea.
+
+Se acompaña a la presente comunicación los siguientes documentos:
+
+    ●    Imagen anverso y reverso de los documentos de identidad de los suscriptores de la presente
+         comunicación.
+
+    ●    Poderes de los suscriptores.
+
+
+Atentamente,
+
+
+                                                   -11-
+__________________________________                        __________________________________
+Denominación Social:                                      Denominación Social:
+RUC No.:                                                  RUC No.:
+Domicilio:                                                Domicilio:
+Representante Legal / Apoderado 1:                        Representante Legal / Apoderado 2:
+Doc. Identidad:                                           Doc. Identidad:
+Poderes inscritos en la Partida Electrónica No.:          Poderes inscritos en la Partida Electrónica No.:
+
+
+
+
+                                                   -12-
+                                                                       Anexo G
+
+                   ¿Cómo funciona la plataforma Teams?
+
+                   El aplicativo “Microsoft Teams” permite realizar reuniones o llamadas virtuales desde computadora o
+                   teléfono móvil inteligente y/o tableta, el cual ofrece la transmisión simultánea y en tiempo real de sonido
+                   e imagen, e interacción de todos los participantes sea mediante voz o por intermedio del chat en la propia
+                   plataforma.
+
+                   Una vez que el Titular o su representante acceda a la plataforma, podrá activar o desactivar su voz y/o
+                   imagen. Además, para que el Titular o su representante pueda señalar su voto, tendrá que hacer “click”
+                   en el cuadro de chat del aplicativo y acto seguido escribir el sentido de su voto, o podrá hacer “click” en
+                   “Micrófono” para manifestar su voto de forma verbal. A continuación, se adjunta una imagen que detalla
+                   las funcionalidades antes mencionadas:
+
+
+
+
+Agregar participantes                                                                                                                  Salir de la reunión
+
+
+  Enviar mensajes por chat       Acceso a controles adicionales      Encender y apagar cámara        Encender o silenciar       Compartir pantalla
+                                                                                                         micrófono
+
+                   ¿Cómo se ingresa a la plataforma Teams?
+
+                   Los Titulares que participen en la Asamblea General Extraordinaria No Presencial, o en su caso, su
+                   representante, deberán disponer del equipamiento necesario con conexión a Internet, según se indica a
+                   continuación:
+
+                   El Titular, su representante o apoderado, según corresponda, tendrán las siguientes modalidades de
+                   acceso a la plataforma Teams:
+
+                   ●    Desde el explorador de internet, sin descargar el aplicativo:
+
+                        (i)    Hacer “click” al enlace que el Comité Técnico enviará por correo electrónico. Luego, hacer
+                               “click” a la frase “Haga click aquí para unirse a la reunión”, la cual se encontrará en la invitación
+                               a ser remitida por el Comité Técnico según se detalla a continuación:
+
+
+
+
+                        (ii)   Luego de efectuar lo señalado en el punto anterior, se abrirá la siguiente ventana y para que el
+                               titular o su representante pueda ingresar al aplicativo, sin necesidad de realizar alguna
+                               descarga, deberá hacer click a la frase “Continuar en este explorador”:
+
+
+
+
+                                                                         -13-
+    (iii) Al unirse a la reunión, es posible que el explorador le pregunte si Teams puede usar el
+          micrófono y la cámara. Al seleccionar “Permitir”, siempre puede desactivar el micrófono y/o el
+          vídeo una vez que se una a la reunión.
+
+
+
+
+    (iv) Cuando esté listo, seleccione “Unirse ahora”.
+
+    (v)   Si entra en la sala de espera de la reunión, espere a que alguien de la reunión lo admita.
+
+●   Descarga del aplicativo:
+
+    (a)   La descarga de la plataforma del aplicativo “Microsoft Teams” en una computadora se realiza
+          en la siguiente dirección: https://www.microsoft.com/es-ww/microsoft-teams/download-app
+
+    (b)   Para instalar “Microsoft Teams” en un teléfono móvil inteligente o tableta, el Titular deberá
+          ingresar a la aplicación “App Store”, en caso se trate de iPhone o a la aplicación “Play Store”, en
+          caso se trate de Android. Posteriormente, deberá digitar “Teams” en el cuadro de búsqueda
+          hasta encontrar la aplicación “Microsoft Teams” e iniciar la descarga e instalación.
+
+
+
+
+                                                    -14-
+Para mayor información sobre como ingresar a una reunión en “Microsoft Teams”, agradeceremos
+puedan acceder a la siguiente dirección web https://www.youtube.com/watch?v=xaB-fQ6HyFU.
+
+
+
+
+                                            -15-
+
