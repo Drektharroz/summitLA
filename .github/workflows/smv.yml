@@ -1,0 +1,24 @@
+name: smv-busqueda
+on:
+  push:
+    branches: [smv-busqueda]
+    paths: ['smv/*.py', 'smv/config.json', '.github/workflows/smv.yml']
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install requests beautifulsoup4 lxml
+      - run: python smv/run.py
+      - name: Guardar resultados en la rama
+        run: |
+          git config user.name "smv-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add smv/out
+          git commit -m "Resultados SMV [skip ci]" || echo "sin cambios"
+          git push
